@@ -3,51 +3,74 @@ title: Home
 section: Home
 ---
 
-# Welcome   ![Photo of Mark Reid drinking a coffee](/pics/mark_reid.jpg)
+# Ranjit Jhala ![Photo of Ranjit Jhala](/pics/jhala-mug-psy.jpg)
 
-I'm Mark Reid, a 30-something Australian, academic, husband, programmer, father, 
-snow/skateboarder, and web-nerd—amongst other things. You can find out more about 
-me by poking around the links above and below.
+
+I am a Professor of [Computer Science Engineering](http://www.cs.ucsd.edu)
+in the [Jacobs School of Engineering]( )
+at the
+[University of California, San Diego](http://www.ucsd.edu)
+
+<div class="section">
+Contact
+========
+
++ **Phone:** CSE 3110
++ **Phone:** (858) 534 1420
++ **Email:** `jhala@cs.ucsd.edu`
+
+</div>
+
 
 <div class="section">
 Research
 ========
-My day job is as a [Research Fellow](/work) in machine learning at 
-the Australian National University's Research School Computer Science
-and am contributed to [NICTA](http://nicta.com.au)'s Canberra Lab.
 
-Find out more about [my work](/work) and [publications](/work/pubs).
+I am interested in Programming Languages and Software Engineering,
+specifically, in techniques for building reliable computer systems.
+My work draws from, combines and contributes to the areas of Type
+Systems, Model Checking, Program Analysis and Automated Deduction.
+See [my papers](/research/index.html) for more.
 </div>
 
+
 <div class="section">
-Blogs
-=====
-I keep a research blog called _[Inductio ex Machina](/blog)_ on 
-machine learning and statistics.
-Recent posts include:
+Students
+========
 
-<ul>
-$for(posts)$
-  <li><a href="$url$" title="$excerpt$">$title$</a></li>
-$endfor$
-</ul>
+I am fortunate to be able to work with:
 
++ Niki Vazou
++ Alexander Bakst
++ Panagiotis Vekris
++ Eric Seidel
++ Ben Cosman
++ Marc Andrysco
++ Ming Kawaguchi
+
+And to have worked with these fine folks:
+
++ Ravi Chugh (Ph.D 2014) --> U. Chicago
++ Patrick Rondon (Ph.D 2012) --> Google
++ Jan Wen Voung (Ph.D 2010)  --> Google
 </div>
 
+
 <div class="section">
-[Twitter](http://twitter.com/mdreid)
+Teaching
+========
+
+Currently I am teaching:
+
++ CSE 130: Programming Languages [Spring 2015](http://cseweb.ucsd.edu/classes/sp15/cse130-a/)
+</div>
+
+
+<div class="section">
+[Twitter](http://twitter.com/ranjitjhala)
 ====================================
- <a class="twitter-timeline" href="https://twitter.com/mdreid" height="2em" data-widget-id="364574639483129859" data-chrome="nofooter noborders noheader noscrollbar transparent" data-tweet-limit="1" data-show-replies="false">Tweets by @mdreid</a>
+
+ <a class="twitter-timeline" href="https://twitter.com/ranjitjhala" height="2em" data-widget-id="364574639483129859" data-chrome="nofooter noborders noheader noscrollbar transparent" data-tweet-limit="1" data-show-replies="false">Tweets by @ranjitjhala</a>
  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-
 </div>
-
-<div class="section">
-[Reading](http://librarything.com/home/mdreid)
-==============================================
-
-<script type="text/javascript" src="http://www.librarything.com/jswidget.php?reporton=mdreid&show=recent&header=&num=8&covers=small&text=title&tag=show&css=0&style=2&version=1"> </script>
-</div>
-
-

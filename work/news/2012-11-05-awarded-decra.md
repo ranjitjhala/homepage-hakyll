@@ -1,1 +1,0 @@
-My grant proposal titled _Composing Machine Learning via Market Mechanisms_ was successful! I will be receiving funding under the [Discovery Early Career Researcher Award](http://www.arc.gov.au/ncgp/decra.htm) (DECRA) scheme for three years, starting in 2013.
