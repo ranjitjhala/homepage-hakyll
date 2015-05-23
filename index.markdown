@@ -50,9 +50,9 @@ I am fortunate to be able to work with:
 
 And to have worked with these fine folks:
 
-+ Ravi Chugh (Ph.D 2014) --> U. Chicago
-+ Patrick Rondon (Ph.D 2012) --> Google
-+ Jan Wen Voung (Ph.D 2010)  --> Google
++ Ravi Chugh (Ph.D 2014)     &rarr; University of  Chicago
++ Patrick Rondon (Ph.D 2012) &rarr; Google
++ Jan Wen Voung (Ph.D 2010)  &rarr; Google
 </div>
 
 

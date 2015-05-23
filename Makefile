@@ -2,12 +2,13 @@ TARGET=/cse/htdocs/classes/sp15/cse130-a/
 RSYNC=$(shell pwd)/sync.sh
 USER=rjhala
 HOST=login.eng.ucsd.edu
+HAKYLL=website
 
-all: site
-	./site rebuild
+all: hak
+	./$(HAKYLL) rebuild
 
-site:
-	ghc --make site
+hak:
+	ghc --make $(HAKYLL)
 
 rsync:
 	$(RSYNC) _site/ $(USER) $(HOST) $(TARGET)
