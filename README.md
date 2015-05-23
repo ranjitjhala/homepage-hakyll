@@ -1,10 +1,15 @@
-Mark.Reid.name in Hakyll
-========================
+README
+======
 
-My [website][] content and configuration for Hakyll.
+Home -- Research -- Teaching -- Students -- "Other" 
 
-## Todo
++ Home
+  
++ Research 
+  + Projects
+  + Papers
++ Teaching 
 
- - Add atom feed
++ Students 
 
-[website]: http://mark.reid.name
++ Other 

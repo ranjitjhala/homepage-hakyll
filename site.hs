@@ -19,22 +19,16 @@ navCtx Main = constField "isNavMain" "true"
 navCtx Blog = constField "isNavBlog" "true"
 
 --------------------------------------------------------------------------------
-destDir = "/Users/mreid/Sites/mark.reid.name/"
-remote = "confla@mark.reid.name:www/" 
+destDir = "/Users/rjhala/personal/homepage-hakyll/_site/"
+
+remote = "rjhala@goto.ucsd.edu"
+
 siteConfig = defaultConfiguration
   { destinationDirectory  = destDir,
-    storeDirectory        = "/tmp/hakyll_cache/mark.reid.name/",
-    deployCommand         = "rsync --exclude 'blog/drafts' -av --rsh='ssh -p1022' " 
-                            ++ destDir ++ " " ++ remote 
+    storeDirectory        = "/Users/rjhala/tmp/hakyll_cache/",
+    deployCommand         = "rsync -av --rsh='ssh -p1022' "
+                            ++ destDir ++ " " ++ remote
   }
-
-feedConfig = FeedConfiguration
-    { feedTitle       = "Inductio Ex Machina"
-    , feedDescription = "Thoughts on Machine Learning and Inference"
-    , feedAuthorName  = "Mark Reid"
-    , feedAuthorEmail = "mark@reid.name"
-    , feedRoot        = "http://mark.reid.name"
-    }
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -42,7 +36,7 @@ main = hakyllWith siteConfig $ do
   -----------------
   -- Templates
   match "_templates/**" $ compile templateCompiler
-  
+
   -----------------
   -- CSS
   match "css/**" $ do
@@ -87,7 +81,7 @@ main = hakyllWith siteConfig $ do
     compile $ myPandocCompiler >>= pageCompiler "Play"
   -----------------
   -- Work
-  
+
   -- News (Note: posts are *.md, index is index.markdown)
   match "work/news/*.md" $ compile bareCompiler
   match "work/news/index.markdown" $ do
@@ -128,49 +122,41 @@ main = hakyllWith siteConfig $ do
   --   route   $ setExtension "html"
   --   compile $ bibtexCompiler >>= pageCompiler "Work"
 
-  -----------------
-  -- Blog
-  match "blog/index.markdown" $ do
-    route   $ setExtension "html"
-    compile $ listCompiler "posts" postCtx (Only 5) "blog/posts/*" 
-              >>= blogPageCompiler "Home"
-      
-  match "blog/past.markdown" $ do
-    route   $ setExtension "html"
-    compile $ listCompiler "posts" postCtx All "blog/posts/*" 
-              >>= blogPageCompiler "Home"
+  -- NUKE -----------------
+  -- NUKE -- Blog
+  -- NUKE match "blog/index.markdown" $ do
+  -- NUKE   route   $ setExtension "html"
+  -- NUKE   compile $ listCompiler "posts" postCtx (Only 5) "blog/posts/*"
+  -- NUKE             >>= blogPageCompiler "Home"
 
-  match "blog/info.markdown" $ do
-    route   $ setExtension "html"
-    compile $ myPandocCompiler >>= blogPageCompiler "Info"
+  -- NUKE match "blog/past.markdown" $ do
+  -- NUKE   route   $ setExtension "html"
+  -- NUKE   compile $ listCompiler "posts" postCtx All "blog/posts/*"
+  -- NUKE             >>= blogPageCompiler "Home"
 
-  match "blog/kith.markdown" $ do
-    route   $ setExtension "html"
-    compile $ myPandocCompiler >>= blogPageCompiler "Kith"
+  -- NUKE match "blog/info.markdown" $ do
+  -- NUKE   route   $ setExtension "html"
+  -- NUKE   compile $ myPandocCompiler >>= blogPageCompiler "Info"
 
-  -- Posts
-  match "blog/posts/*" $ do
-    route   $ gsubRoute "posts" (const "") `composeRoutes` rmDateRoute
-    compile $ blogPostCompiler True
-  
-  -- Drafts
-  match "blog/drafts/*" $ do
-    route   $ rmDateRoute
-    compile $ blogPostCompiler False
+  -- NUKE match "blog/kith.markdown" $ do
+  -- NUKE   route   $ setExtension "html"
+  -- NUKE   compile $ myPandocCompiler >>= blogPageCompiler "Kith"
 
-  -- Atom / RSS
-  create ["blog/atom.xml"] $ do
-    route   $ idRoute
-    compile $ do
-      let feedCtx = postCtx `mappend` bodyField "description"
-      posts <- takeRecentFirst (Only 5) =<< loadAllSnapshots "blog/posts/*" "content"
-      renderAtom feedConfig feedCtx posts
+  -- NUKE -- Posts
+  -- NUKE match "blog/posts/*" $ do
+  -- NUKE   route   $ gsubRoute "posts" (const "") `composeRoutes` rmDateRoute
+  -- NUKE   compile $ blogPostCompiler True
 
-  -----------------
-  -- Testing
-  match "blog/test/*.md" $ do
-    route   $ gsubRoute "test" (const "") `composeRoutes` rmDateRoute
-    compile $ blogPostCompiler False
+  -- NUKE -- Drafts
+  -- NUKE match "blog/drafts/*" $ do
+  -- NUKE   route   $ rmDateRoute
+  -- NUKE   compile $ blogPostCompiler False
+
+  -- NUKE -----------------
+  -- NUKE -- Testing
+  -- NUKE match "blog/test/*.md" $ do
+  -- NUKE   route   $ gsubRoute "test" (const "") `composeRoutes` rmDateRoute
+  -- NUKE   compile $ blogPostCompiler False
 
 --------------------------------------------------------------------------------
 -- Compile pages by wrapping in standard templates
@@ -186,12 +172,12 @@ pageCompiler section item =
       homeCtx = pageCtx section
 
 -- Compile pages with Pandoc's citations resolved against a BibTeX file
--- bibtexCompiler = do 
+-- bibtexCompiler = do
 --   csl <- load "work/note/siggraph.csl"
 --   bib <- load "work/note/refs.bib"
 
---   getResourceBody 
---     >>= readPandocBiblio def (Just csl) bib 
+--   getResourceBody
+--     >>= readPandocBiblio def (Just csl) bib
 --     >>= return . writePandoc
 
 -- Compile a page that include template code to show a list
@@ -205,12 +191,12 @@ listCompiler field listItemCtx number listItemId = do
 
 -- Blog posts
 -- Take out the post/YYYY-MM-DD part from the post URL
-rmDateRoute = 
+rmDateRoute =
   gsubRoute "/[0-9]{4}-[0-9]{2}-[0-9]{2}-" (const "/")
   `composeRoutes` setExtension "html"
 
 -- Blog page compiler
-blogPageCompiler section item = 
+blogPageCompiler section item =
     loadAndApplyTemplate "_templates/page.html" postCtx item
     >>= loadAndApplyTemplate "_templates/nav/blog.html" postCtx
     >>= loadAndApplyTemplate "_templates/disqus/counts.html" postCtx
@@ -250,9 +236,9 @@ pageCtx section =
   defaultContext
 
 dateCtx :: Context String
-dateCtx = 
+dateCtx =
   dateField "date" "%B %e, %Y" `mappend`
-  dateField "shortdate" "%e %b %y" `mappend` 
+  dateField "shortdate" "%e %b %y" `mappend`
   defaultContext
 
 -- Set various fields for blog posts
@@ -274,11 +260,11 @@ maybeTake (Only n) = take n
 takeRecentFirst n = fmap (maybeTake n) . recentFirst
 
 -- Pandoc compiler with defaults I like
-writerConfig = def 
+writerConfig = def
 readerConfig = def { readerSmart = True, readerOldDashes = True }
-writerNoMaths = def 
-readerNoMaths = def { 
-    readerExtensions = delete Ext_tex_math_dollars (readerExtensions readerConfig) 
+writerNoMaths = def
+readerNoMaths = def {
+    readerExtensions = delete Ext_tex_math_dollars (readerExtensions readerConfig)
   }
 
 noMathsCompiler = pandocCompilerWith readerNoMaths writerNoMaths
