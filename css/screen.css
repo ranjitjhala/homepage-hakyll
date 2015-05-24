@@ -263,15 +263,11 @@ ul.compact li a {
 .twitter-title a { display: inline; }
 /* @end */
 
-body#Work #header a.work,
-body#Vita #header a.work,
-body#Home #header a.home, 
-body#Play #header a.play,
-body#Info #header a.info,
-body#Blog #header a.blog,
-body#Code #header a.code,
-body#Past #header a.past,
-body#Kith #header a.kith
+body#Home     #header a.home, 
+body#Research #header a.research,
+body#Teaching #header a.teaching,
+body#Students #header a.students,
+body#Misc     #header a.misc
 { 
 	border-bottom: 2px solid silver; 
 }
@@ -372,7 +368,7 @@ pre {
 	font-size: 0.75em; /* Hack to make code look same size as body font */  
 	line-height: 1.5em;	
 	color: #111;
-	background: #fffff0;
+	background: #fffff0; 
 	border: 1px solid #ddc;
 	padding: 0.5em 1em;
 	overflow: hidden;
@@ -388,7 +384,7 @@ pre:hover {
 }
 code {
 	font-size: 1em;
-	background-color: #f7f7ff;
+	/* background-color: #f7f7ff; */
 	line-height: 1.4em;
 }
 pre > code {

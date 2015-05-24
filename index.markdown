@@ -1,9 +1,10 @@
 ---
 title: Home
 section: Home
+author: Ranjit Jhala
 ---
 
-# Ranjit Jhala ![Photo of Ranjit Jhala](/pics/jhala-mug-psy.jpg)
+# Ranjit Jhala ![Photo of Ranjit Jhala](/static/jhala-mug-psy.jpg)
 
 
 I am a Professor of [Computer Science Engineering](http://www.cs.ucsd.edu)
@@ -29,31 +30,12 @@ Research
 I am interested in Programming Languages and Software Engineering,
 specifically, in techniques for building reliable computer systems.
 My work draws from, combines and contributes to the areas of Type
-Systems, Model Checking, Program Analysis and Automated Deduction.
+Systems, Model Checking, Program Analysis and Automated Deduction,
+with my fantastic [students](students.html) in the
+[Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/).
 See [my papers](/research/index.html) for more.
 </div>
 
-
-<div class="section">
-Students
-========
-
-I am fortunate to be able to work with:
-
-+ Niki Vazou
-+ Alexander Bakst
-+ Panagiotis Vekris
-+ Eric Seidel
-+ Ben Cosman
-+ Marc Andrysco
-+ Ming Kawaguchi
-
-And to have worked with these fine folks:
-
-+ Ravi Chugh (Ph.D 2014)     &rarr; University of  Chicago
-+ Patrick Rondon (Ph.D 2012) &rarr; Google
-+ Jan Wen Voung (Ph.D 2010)  &rarr; Google
-</div>
 
 
 <div class="section">

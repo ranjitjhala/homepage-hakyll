@@ -162,11 +162,11 @@ main = hakyllWith siteConfig $ do
 -- Compile pages by wrapping in standard templates
 pageCompiler :: String -> Item String -> Compiler (Item String)
 pageCompiler section item =
-    loadAndApplyTemplate "_templates/page.html" homeCtx item
+    loadAndApplyTemplate "_templates/page.html"         homeCtx item
     >>= loadAndApplyTemplate "_templates/nav/main.html" homeCtx
-    >>= loadAndApplyTemplate "_templates/main.html" homeCtx
-    >>= loadAndApplyTemplate "_templates/bottom.html" homeCtx
-    >>= loadAndApplyTemplate "_templates/top.html" homeCtx
+    >>= loadAndApplyTemplate "_templates/main.html"     homeCtx
+    >>= loadAndApplyTemplate "_templates/bottom.html"   homeCtx
+    >>= loadAndApplyTemplate "_templates/top.html"      homeCtx
     >>= relativizeUrls
     where
       homeCtx = pageCtx section
