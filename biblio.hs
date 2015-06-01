@@ -1,3 +1,7 @@
+#!/usr/bin/env runhaskell
+
+
+
 {-# LANGUAGE OverloadedStrings #-}
 
 import qualified Data.Text.IO        as TIO
@@ -10,33 +14,48 @@ import qualified Data.HashMap.Strict as H
 import           Control.Applicative
 import           Control.Monad       (mzero)
 import qualified Data.ByteString.Lazy as LB
+import           System.Environment (getArgs)
+import qualified Data.List as L
 
 -------------------------------------------------------------------
 -- | Generate Output ----------------------------------------------
 -------------------------------------------------------------------
 
 main :: IO ()
-main = mkBibHtml tpltF bibF outF
-  where
-    tpltF = "examples/bib.html"
-    bibF  = "examples/bib.json"
-    outF  = "dist/output.html"
+main = do
+  (tpltF:bibF:outF:_) <- getArgs
+  mkBibHtml tpltF bibF outF
+  -- where
+  --   tpltF = "templates/bib.template"
+  --   bibF  = "templates/bib.json"
+  --   outF  = "pubs.markdown"
 
 mkBibHtml tpltF bibF outF = do
   tplStr <- TIO.readFile tpltF
-  bib    <- readBib    bibF
-  let htmlStr = K.renderTemplate bib tplStr
+  ypubs  <- yearPubs <$> readBib bibF
+  let htmlStr = renderYears ypubs tplStr
   TIO.writeFile outF htmlStr
 
-readBib :: FilePath -> IO BibValue
+renderYears :: [(Int, BibValue)] -> T.Text -> T.Text
+renderYears ibibs tplStr = T.concat [ K.renderTemplate bib tplStr | (i, bib) <- L.sort ibibs ]
+  
+    
+readBib :: FilePath -> IO [Pub]
 readBib f = do
   b <- eitherDecode' <$> LB.readFile f
   case b of
     Left err -> error err
-    Right v  -> return $ bibValue v
+    Right v  -> return v
 
-bibValue :: [Pub] -> BibValue
-bibValue ps = H.fromList [ ("pubs", toVal ps)]
+yearPubs :: [Pub] -> [(Int, BibValue)]
+yearPubs ps    = H.toList $ yearValue <$> byYear
+  where
+    byYear     = L.foldl' addPub H.empty ps
+    addPub m p = adds (year p) p m
+    adds k v m = H.insert k (v : H.lookupDefault [] k m) m
+    yearValue :: [Pub] -> BibValue
+    yearValue xs = H.fromList [ ("pubs", toVal xs)]
+
 
 -------------------------------------------------------------------
 -- | JSON Format for Pubs -----------------------------------------

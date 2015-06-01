@@ -37,84 +37,52 @@ Past Projects
 Papers
 ======
 
-Below is a list of my papers. For co-authors and such:
+Below is a list of my papers. Also at [Google Scholar][scholar], [DBLP][dblp] or [ArXiv][arxiv].
 
-+ [Google Scholar][scholar]
-+ [DBLP][dblp]
-
+[arxiv]:   http://arxiv.org/find/cs/1/au:+Jhala_R/0/1/0/all/0/1
+[scholar]: https://scholar.google.com/citations?user=H3wb878AAAAJ
+[dblp]:    http://dblp.uni-trier.de/pers/hd/j/Jhala:Ranjit
 
 <div class="section">
 ## 2015
 
 **Generalization Bounds**    
-
 Mark D. Reid     
 To appear in the [Encyclopedia of Machine Learning](http://www.springer.com/computer/ai/book/978-0-387-30768-8), 
 November, 2010.    
-{ [PDF (Pre-print)][bounds] | [BibTeX]() }
-
- <div class="bibtex">
-### BibTeX
-	@incollection{Reid:2010a,
-	 Author = {Reid, Mark D.},
-	 Booktitle = {Encyclopedia of Machine Learning},
-	 Editor = {Sammut, C. and Webb, G.},
-	 Publisher = {Springer},
-	 Title = {Generalization Bounds},
-	 Volume = {XXVI},
-	 Year = {2010}}
- </div>
+{ [PDF](http://www.google.com) } 
 
 **Squinting at a Sea of Dots: Visualising
 Australian Readerships using Statistical Machine Learning**     
-[Julieanne Lamond][julieanne] and Mark D. Reid   
+Julieanne Lamond and Mark D. Reid   
 Resourceful Reading: The New Empiricism, eResearch and Australian Literary Culture    
-{ [BibTeX]() }
-
- <div class="abstract">
-### Abstract
-We propose a novel hybrid loss for multiclass and structured prediction problems that is a convex combination of a log loss for Conditional Random Fields (CRFs) and a multiclass hinge loss for Support Vector Machines (SVMs). We provide a sufficient condition for when the hybrid loss is Fisher consistent for classification. This condition depends on a measure of dominance between labels--specifically, the gap between the probabilities of the best label and the second best label. We also prove Fisher consistency is necessary for parametric consistency when learning models such as CRFs. We demonstrate empirically that the hybrid loss typically performs least as well as--and often better than--both of its constituent losses on a variety of tasks, such as human action recognition. In doing so we also provide an empirical comparison of the efficacy of probabilistic and margin based approaches to multiclass and structured prediction.
- </div>
-
- <div class="bibtex">
-### BibTeX
-	@incollection{Lamond:2010,
-	 Address = {Sydney},
-	 Author = {Lamond, Julieanne V. and Reid, Mark D.},
-	 Booktitle = {Resourceful Reading: The New Empiricism, eResearch and Australian Literary Culture},
-	 Editor = {Bode, Katherine and Dixon, Robert},
-	 Pages = {223--239},
-	 Publisher = {Sydney University Press},
-	 Title = {Squinting at a Sea of Dots: Visualising Australian Readerships using Statistical Machine Learning},
-	 Year = {2010}}
- </div>
-
+{ [PDF](http://www.google.com) }
 </div>
 
-[scholar]: https://scholar.google.com/citations?user=H3wb878AAAAJ
-[dblp]:    http://dblp.uni-trier.de/pers/hd/j/Jhala:Ranjit
+<div class="section">
+## 2014
+
+**Generalization Bounds**    
+Mark D. Reid     
+To appear in the [Encyclopedia of Machine Learning](http://www.springer.com/computer/ai/book/978-0-387-30768-8), 
+November, 2010.    
+{ [PDF](http://www.google.com) } 
+
+**Squinting at a Sea of Dots: Visualising
+Australian Readerships using Statistical Machine Learning**     
+Julieanne Lamond and Mark D. Reid   
+Resourceful Reading: The New Empiricism, eResearch and Australian Literary Culture    
+{ [PDF](http://www.google.com) }
+</div>
 
 
-<script type="text/javascript" src="/js/jquery.js"> </script>
-<script type="text/javascript">
-	$(document).ready(function(){
-		$("a:contains('BibTeX')").click(function(event) { 
-			$(this).parent().nextAll(".bibtex").first().slideToggle("fast"); });
-
-		$("a:contains('BibTeX')").toggle(
-			function(){ $(this).text("Hide BibTeX") },
-			function(){ $(this).text("BibTeX") }
-		);
-
-		$("a:contains('Abstract')").click(function(event) { 
-			$(this).parent().nextAll(".abstract").first().slideToggle("fast"); });
-
-		$("a:contains('Abstract')").toggle(
-			function(){ $(this).text("Hide Abstract") },
-			function(){ $(this).text("Abstract") }
-		);
-
-	});
-</script>
 
 
+<h1>Publications</h1>
+
+<ul>
+  <li>Lazy Abstraction at POPL in 2002 by Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Gregoire Sutre </li>
+  <li>Lazy Abstraction at POPL in 2002 by Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Gregoire Sutre </li>
+  <li>Type Targeted Testing at ESOP in 2015 by Eric Seidel, Niki Vazou, Ranjit Jhala </li>
+  <li>Bounded Refinement Types at ICFP in 2015 by Niki Vazou, Alexander Bakst, Ranjit Jhala </li>
+</ul>
