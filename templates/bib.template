@@ -1,11 +1,15 @@
 
+<div class="section">
+## {{ year }}
 
-<h1>{{ year }}</h1>
-
-<ul>
 {% for p in pubs %}
-  <li>{{ p.title }} at {{ p.short }} in {{ p.year }} by {{ p.authors }} </li>
+**{{ p.title }}** <br> 
+{{ p.authors }} <br>
+{{ p.venue }} *({{ p.short }} {{ p.year }})* <br>
+[PDF]({{ p.url }}) <br>
+
+
 {% endfor %}
-</ul>
 
 
+</div>

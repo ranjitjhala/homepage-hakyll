@@ -10,10 +10,10 @@ PUBMD=pubs.markdown
 RESBMD=research-base.markdown
 RESMD=research.markdown
 
-all: hak
+all: bib $(HAKYLL)
 	./$(HAKYLL) rebuild
 
-hak:
+$(HAKYLL): $(HAKYLL).hs
 	ghc --make $(HAKYLL)
 
 bib: $(BIBLIO) $(RESBMD) $(BIB)

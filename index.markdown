@@ -16,7 +16,7 @@ at the
 Contact
 ========
 
-+ **Phone:** CSE 3110
++ **Office:** CSE 3110
 + **Phone:** (858) 534 1420
 + **Email:** `jhala@cs.ucsd.edu`
 
@@ -33,7 +33,16 @@ My work draws from, combines and contributes to the areas of Type
 Systems, Model Checking, Program Analysis and Automated Deduction,
 with my fantastic [students](students.html) in the
 [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/).
-See [my papers](/research/index.html) for more.
+Current projects include:
+
++ [Liquid Haskell](http://github.com/ucsd-progsys/liquidhaskell)
++ [Refined TypeScript](https://github.com/ucsd-pl/refscript)
++ [Fixpoint Horn-Clause Solver](https://github.com/ucsd-progsys/liquid-fixpoint)
++ [Data Timing Channels](subnormal-oakland)
+
+See [my papers](/research.html) for more.
+
+
 </div>
 
 
@@ -52,7 +61,21 @@ Currently I am teaching:
 [Twitter](http://twitter.com/ranjitjhala)
 ====================================
 
+<a class="twitter-timeline"
+  data-widget-id="602227116877357058"
+  href="https://twitter.com/ranjitjhala"
+  data-tweet-limit="1"
+  data-chrome="nofooter noborders">
+Tweets by @ranjitjhala
+</a>
+
+<!--
+<a class="twitter-timeline" href="https://twitter.com/RanjitJhala" data-widget-id="602227116877357058">Tweets by @RanjitJhala</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ 
  <a class="twitter-timeline" href="https://twitter.com/ranjitjhala" height="2em" data-widget-id="364574639483129859" data-chrome="nofooter noborders noheader noscrollbar transparent" data-tweet-limit="1" data-show-replies="false">Tweets by @ranjitjhala</a>
- <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+ -->
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 </div>

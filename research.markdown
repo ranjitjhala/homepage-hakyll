@@ -43,58 +43,43 @@ Below is a list of my papers. Also at [Google Scholar][scholar], [DBLP][dblp] or
 [scholar]: https://scholar.google.com/citations?user=H3wb878AAAAJ
 [dblp]:    http://dblp.uni-trier.de/pers/hd/j/Jhala:Ranjit
 
+
+
+
 <div class="section">
 ## 2015
 
-**Generalization Bounds**    
-Mark D. Reid     
-To appear in the [Encyclopedia of Machine Learning](http://www.springer.com/computer/ai/book/978-0-387-30768-8), 
-November, 2010.    
-{ [PDF](http://www.google.com) } 
+**Bounded Refinement Types** <br> 
+Niki Vazou, Alexander Bakst, Ranjit Jhala <br>
+ACM International Conference on Functional Programming *(ICFP 2015)* <br>
+[PDF](http://www.google.com) <br>
 
-**Squinting at a Sea of Dots: Visualising
-Australian Readerships using Statistical Machine Learning**     
-Julieanne Lamond and Mark D. Reid   
-Resourceful Reading: The New Empiricism, eResearch and Australian Literary Culture    
-{ [PDF](http://www.google.com) }
+
+**Type Targeted Testing** <br> 
+Eric Seidel, Niki Vazou, Ranjit Jhala <br>
+European Symposium on Programming *(ESOP 2015)* <br>
+[PDF](http://www.google.com) <br>
+
+
+
+
 </div>
 
 <div class="section">
-## 2014
+## 2002
 
-**Generalization Bounds**    
-Mark D. Reid     
-To appear in the [Encyclopedia of Machine Learning](http://www.springer.com/computer/ai/book/978-0-387-30768-8), 
-November, 2010.    
-{ [PDF](http://www.google.com) } 
+**Lazy Abstraction** <br> 
+Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Gregoire Sutre <br>
+ACM Symposium on Principles of Programming Languages *(POPL 2002)* <br>
+[PDF](http://www.google.com) <br>
 
-**Squinting at a Sea of Dots: Visualising
-Australian Readerships using Statistical Machine Learning**     
-Julieanne Lamond and Mark D. Reid   
-Resourceful Reading: The New Empiricism, eResearch and Australian Literary Culture    
-{ [PDF](http://www.google.com) }
+
+**Lazy Abstraction** <br> 
+Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Gregoire Sutre <br>
+ACM Symposium on Principles of Programming Languages *(POPL 2002)* <br>
+[PDF](http://www.google.com) <br>
+
+
+
+
 </div>
-
-
-
-
-
-
-<h1>2002</h1>
-
-<ul>
-  <li>Lazy Abstraction at POPL in 2002 by Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Gregoire Sutre </li>
-  <li>Lazy Abstraction at POPL in 2002 by Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Gregoire Sutre </li>
-</ul>
-
-
-
-
-<h1>2015</h1>
-
-<ul>
-  <li>Bounded Refinement Types at ICFP in 2015 by Niki Vazou, Alexander Bakst, Ranjit Jhala </li>
-  <li>Type Targeted Testing at ESOP in 2015 by Eric Seidel, Niki Vazou, Ranjit Jhala </li>
-</ul>
-
-

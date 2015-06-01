@@ -62,7 +62,7 @@ yearValue :: Int -> [Pub] -> BibValue
 yearValue i xs = H.fromList [ ("year", toVal i )
                             , ("pubs", toVal xs) ]
 
-orderByYear (i,_) (j,_) = compare i j
+orderByYear (i,_) (j,_) = compare j i
 
 -------------------------------------------------------------------
 -- | JSON Format for Pubs -----------------------------------------
