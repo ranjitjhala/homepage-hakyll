@@ -1,15 +1,15 @@
 README
 ======
 
-Home -- Research -- Teaching -- Students -- "Other" 
-
 + Home
   
 + Research 
-  + Projects
-  + Papers
+
+  - list papers (!)
+  
 + Teaching 
-
+  - list classes
+  
 + Students 
+  - add homepages
 
-+ Other 
