@@ -78,11 +78,23 @@ Resourceful Reading: The New Empiricism, eResearch and Australian Literary Cultu
 
 
 
-<h1>Publications</h1>
+
+
+<h1>2002</h1>
 
 <ul>
   <li>Lazy Abstraction at POPL in 2002 by Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Gregoire Sutre </li>
   <li>Lazy Abstraction at POPL in 2002 by Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Gregoire Sutre </li>
-  <li>Type Targeted Testing at ESOP in 2015 by Eric Seidel, Niki Vazou, Ranjit Jhala </li>
-  <li>Bounded Refinement Types at ICFP in 2015 by Niki Vazou, Alexander Bakst, Ranjit Jhala </li>
 </ul>
+
+
+
+
+<h1>2015</h1>
+
+<ul>
+  <li>Bounded Refinement Types at ICFP in 2015 by Niki Vazou, Alexander Bakst, Ranjit Jhala </li>
+  <li>Type Targeted Testing at ESOP in 2015 by Eric Seidel, Niki Vazou, Ranjit Jhala </li>
+</ul>
+
+

@@ -36,10 +36,6 @@ mkBibHtml tpltF bibF outF = do
   let htmlStr = renderYears ypubs tplStr
   TIO.writeFile outF htmlStr
 
-renderYears :: [(Int, BibValue)] -> T.Text -> T.Text
-renderYears ibibs tplStr = T.concat [ K.renderTemplate bib tplStr | (i, bib) <- L.sort ibibs ]
-  
-    
 readBib :: FilePath -> IO [Pub]
 readBib f = do
   b <- eitherDecode' <$> LB.readFile f
@@ -47,15 +43,26 @@ readBib f = do
     Left err -> error err
     Right v  -> return v
 
+renderYears :: [(Int, BibValue)] -> T.Text -> T.Text
+renderYears ibibs tplStr = T.concat [ K.renderTemplate bib tplStr | (i, bib) <- ibibs ]
+
 yearPubs :: [Pub] -> [(Int, BibValue)]
-yearPubs ps    = H.toList $ yearValue <$> byYear
+yearPubs = L.sortBy orderByYear
+         . H.toList
+         . H.mapWithKey yearValue
+         . groupByYear
+
+groupByYear :: [Pub] -> H.HashMap Int [Pub]
+groupByYear    = L.foldl' addPub H.empty
   where
-    byYear     = L.foldl' addPub H.empty ps
     addPub m p = adds (year p) p m
     adds k v m = H.insert k (v : H.lookupDefault [] k m) m
-    yearValue :: [Pub] -> BibValue
-    yearValue xs = H.fromList [ ("pubs", toVal xs)]
 
+yearValue :: Int -> [Pub] -> BibValue
+yearValue i xs = H.fromList [ ("year", toVal i )
+                            , ("pubs", toVal xs) ]
+
+orderByYear (i,_) (j,_) = compare i j
 
 -------------------------------------------------------------------
 -- | JSON Format for Pubs -----------------------------------------
