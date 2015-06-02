@@ -1,0 +1,835 @@
+[ { "title"   : "Lazy Abstraction"
+  , "authors" : [ "Thomas Henzinger", "Ranjit Jhala", "Rupak Majumdar", "Gregoire Sutre" ]
+  , "year"    : 2002
+  , "venue"   : "ACM Symposium on Principles of Programming Languages"
+  , "short"   : "POPL"
+  , "tags"    : [ "Software Model Checking", "BLAST" ]
+  , "url"     : "http://www.google.com"
+  }
+, { "title"   : "Lazy Abstraction"
+  , "authors" : [ "Thomas Henzinger", "Ranjit Jhala", "Rupak Majumdar", "Gregoire Sutre" ]
+  , "year"    : 2002
+  , "venue"   : "ACM Symposium on Principles of Programming Languages"
+  , "short"   : "POPL"
+  , "tags"    : [ "Software Model Checking", "BLAST" ]
+  , "url"     : "http://www.google.com"
+  }
+, { "title"   : "Type Targeted Testing"
+  , "authors" : [ "Eric Seidel", "Niki Vazou", "Ranjit Jhala" ]
+  , "year"    : 2015
+  , "venue"   : "European Symposium on Programming"
+  , "short"   : "ESOP"
+  , "tags"    : [ "Testing", "Liquid Types", "LiquidHaskell"]
+  , "url"     : "http://www.google.com"
+  }
+
+, { "title"   : "Abstract Refinement Types"
+  , "authors" : [ "Niki Vazou", "Patric Rondon", "Ranjit Jhala" ]
+  , "year"    : 2013
+  , "venue"   : "22nd European Symposium on Programming"
+  , "short"   : "ESOP"
+  , "tags"    : [ "LiquidHaskell" ]
+  , "url"     : "static/abstract_refinement_types.pdf"
+  }
+
+, { "title"   : "LiquidHaskell: Experience With Refinement Types In The Real World"
+  , "authors" : [ "Niki Vazou", "Eric Seidel", "Ranjit Jhala" ]
+  , "year"    : 2014
+  , "venue"   : "ACM Haskell Symposium"
+  , "short"   : "Haskell"
+  , "tags"    : [ "LiquidHaskell" ]
+  , "url"     : "static/real_world_liquid.pdf"
+  }
+
+, { "title"   : "Refinement Types for Haskell"
+  , "authors" : [ "Niki Vazou", "Eric Seidel", "Ranjit Jhala", "Dimitris Vytiniotis", "Simon Peyton-Jones" ]
+  , "year"    : 2014
+  , "venue"   : "19th ACM International Conference on Functional Programming"
+  , "short"   : "ICFP"
+  , "tags"    : [ "LiquidHaskell" ]
+  , "url"     : "static/refinement_types_for_haskell.pdf"
+  }
+
+, { "title"   : "Type Targeted Testing"
+  , "authors" : [ "Eric Seidel", "Niki Vazou", "Ranjit Jhala" ]
+  , "year"    : 2015
+  , "venue"   : "24th European Symposium on Programming"
+  , "short"   : "ESOP"
+  , "tags"    : [ "LiquidHaskell" ]
+  , "url"     : "static/type_targeted_testing.pdf"
+  }
+
+, { "title"   : "Trust but Verify: Two Phase Typing for Dynamic Languages"
+  , "authors" : [ "Panagiotis Vekris", "Benjamin Cosman", "Ranjit Jhala" ]
+  , "year"    : 2015
+  , "venue"   : "29th European Conference on Object Oriented Programming"
+  , "short"   : "ECOOP"
+  , "tags"    : [ "RefScript" ]
+  , "url"     : "static/trust_but_verify.pdf"
+  }
+
+, { "title"   : "On Subnormal Floating Point and Abnormal Timing"
+  , "authors" : [ "Mark Andrysco", "Keaton Mowery", "David Kohlbrenner", "Ranjit Jhala", "Sorin Lerner", "Hovav Shacham"]
+  , "year"    : 2015
+  , "venue"   : "36th IEEE Symposium on Security and Privacy"
+  , "short"   : "Oakland S&P"
+  , "tags"    : [ "Timing" ]
+  , "url"     : "static/denormal.pdf"
+  }
+
+, { "title"   : "Bounded Refinement Types"
+  , "authors" : [ "Niki Vazou", "Alexander Bakst", "Ranjit Jhala" ]
+  , "year"    : 2015
+  , "venue"   : "20th ACM International Conference on Functional Programming"
+  , "short"   : "ICFP"
+  , "tags"    : [ "LiquidHaskell" ]
+  , "url"     : "static/bounded_refinement_types.pdf"
+  }
+
+, { "title"   : "Dependent Types for JavaScript"
+  , "authors" : [ "Ravi Chugh", "David Herman", "Ranjit Jhala" ]
+  , "year"    : 2012
+  , "venue"   : "31st ACM Conference on Object-Oriented Programming Systems, Languages and Applications"
+  , "short"   : "OOPSLA"
+  , "tags"    : [ "DJS" ]
+  , "url"     : "static/dependent_types_for_javascript.pdf"
+  }
+
+]
+
+CSolve: Verifying C With Liquid Types
+Patrick Rondon, Ming Kawaguchi, Alexander Bakst, Ranjit Jhala
+2012
+24th International Conference on Computer-Aided Verification
+CAV
+"static/csolve_verifying_c_with_liquid_types.pdf"
+
+Deterministic Parallelism via Liquid Effects
+Ming Kawaguchi, Patrick Rondon, Alexander Bakst, Ranjit Jhala
+2012
+34th ACM Conference on Programming Language Design and Implementation </i> <br>
+PLDI
+"static/deterministic_parallelism_via_liquid_effects.pdf"
+
+Deterministic Parallelism via Liquid Effects
+Alan Leung, Manish Gupta, Yuvraj Agarwal, Rajesh Gupta, Ranjit Jhala, Sorin Lerner
+2012
+34th ACM Conference on Programming Language Design and Implementation </i> <br>
+PLDI
+"static/verifying_gpu_kernels_by_test_amplification.pdf"
+
+Nested Refinements: A Logic For Duck Typing
+Ravi Chugh, Patrick Rondon, Ranjit Jhala
+2012
+39th ACM Symposium on Principles of Programming Languages
+POPL
+
+HMC: Verifying Functional Programs With Abstract Interpreters
+Rupak Majumdar, Andrey Rybalchenko, Ranjit Jhala
+2011
+23rd Conference on Computer-Aided Verification
+CAV
+"static/hmc.pdf"
+
+NV-Heaps: Making Persistent Objects Fast and Safe with Next-Generation, Non-Volatile Memories
+Joel Coburn, Adrian Caulfield, Ameen Akel, Laura Grupp, Rajesh Gupta, Ranjit Jhala, Steven Swanson
+2011
+16th ACM Conference on Architectural Support for Programming Languages and Operating Systems
+ASPLOS
+"static/nvheaps.pdf"
+
+An Empirical Study of Privacy-Violating Information Flows in JavaScript Web Applications
+Don Jang, Ranjit Jhala, Sorin Lerner, Hovav Shacham<br>
+2010
+17th ACM Conference on Computer and Communications Security
+CCS
+"static/an_empirical_study_of_privacy_violating_flows_in_javascript_web_applications.pdf"
+
+Dsolve: Safety Verification with Liquid Types
+Ming Kawaguchi, Patrick Rondon, Ranjit Jhala
+2010
+22nd International Conference on Computer-Aided Verification
+CAV
+"static/safety_verification_with_liquid_types.pdf"
+
+Finding Latent Performance Bugs in Systems Implementations
+Charles Killian, Karthik Nagaraj, Salman Pervez, Ryan Braud, James W. Anderson, Ranjit Jhala
+2010
+16th ACM SIGSOFT Symposium on the Foundations of Software Engineering
+FSE
+"static/finding_latent_performance_bugs_in_systems_implementations.pdf">
+
+Low-level Liquid Types
+Patrick Rondon, Ming Kawaguchi, Ranjit Jhala
+2010
+37th ACM Symposium on Principles of Programming Languages
+POPL
+"static/low_level_liquid_types.pdf">
+
+HEREHERE
+
+             <td valign="middle">
+	       <a href="software_model_checking_survey.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+	     </td>
+             <td valign="middle">
+	       <a href="software_model_checking_survey.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br> 
+	     </td>
+             <td valign="middle">&nbsp; <a
+		 href="software_model_checking_survey.html">Software Model
+		 Checking</a><br>&nbsp; 
+	       with Rupak Majumdar<br>
+         <i>&nbsp; <b> ACM Computing Surveys</b><i> </i> 
+<br>
+	     </td>
+	   </tr>
+	
+	   
+	   <tr>
+             <td valign="middle">
+	       <a href="type-based_data_structure_verification.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+	     </td>
+             <td valign="middle">
+	       <a href="type-based_data_structure_verification.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br> 
+	     </td>
+             <td valign="middle">&nbsp; <a href="type-based_data_structure_verification.html">Type-based Data Structure Verification</a><br>&nbsp; 
+	       with Ming Kawaguchi and Patrick Rondon<br>
+         <i>&nbsp; <b> PLDI 2009 </b>:<i> 31st ACM Conference on Programming Language Design and Implementation </i> 
+<br>
+	     </td>
+	   </tr>
+	  	   
+	   <tr>
+	     <td valign="middle">
+	       <a href="staged_information_flow_for_javascript.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a>
+	       <br></td>
+	     <td valign="middle">
+	       <a href="staged_information_flow_for_javascript.pdf"><img
+		 src="pdf.png" alt="pdf" width="34" height="34" border="0"></a>
+	       <br></td>
+	     <td valign="middle">&nbsp; 
+	       <a href="staged_information_flow_for_javascript.html">Staged Information Flow for JavaScript</a><br>&nbsp; 
+	        with Ravi Chugh, Jeff Meister and Sorin Lerner<br>
+             <i>&nbsp; <b> PLDI 2009 </b>:<i> 31st ACM Conference on Programming Language Design and Implementation </i> 
+<br>
+	     </td>
+	   </tr>
+
+	   <tr>
+             <td valign="middle">
+<a href="verifying_reference_counted_implementations.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br> 
+             </td>
+             <td valign="middle">
+	       <a href="verifying_reference_counted_implementations.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>   
+	     </td>
+             
+	     <td valign="middle">&nbsp; 
+	       <a href="verifying_reference_counted_implementations.html">Verifying Reference Counting Implementations</a><br>&nbsp; 
+	       with Michael Emmi, Eddie Kohler and Rupak Majumdar<br>
+         <i>&nbsp; <b> TACAS 2009: </b>15th Conference on Tools and Algorithms for the
+		 Construction and Analysis of Systems<br>
+             </td>
+           </tr>
+
+
+
+
+	   <tr>
+             <td valign="middle">
+	       <a href="deep_typechecking_and_refactoring.ps">
+		   <img src="postscript.png" alt="postscript" width="34"
+		   height="34" border="0"></a><br>
+		 </td>
+             <td valign="middle">
+	    <a href="deep_typechecking_and_refactoring.pdf">
+		 <img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br> 
+	       </td>
+	     <td valign="middle">&nbsp; <a href="deep_typechecking_and_refactoring.html">
+		 Deep Typechecking and Refactoring 
+		 </a><br>&nbsp; 
+with
+	       Zach Tatlock, Chris Tucker, David Shuffelton and Sorin Lerner<br>
+         <i>&nbsp; <b>OOPSLA 2008</b>:<i> 23rd ACM Conference on
+	     Object-Oriented Programming Systems, Languages and Applications</i> 
+<br>
+	     </td>
+	   </tr>
+
+	   <tr>
+             <td valign="middle">
+	       <a href="liquid_types.ps">
+		   <img src="postscript.png" alt="postscript" width="34"
+		   height="34" border="0"></a><br>
+	       </td>
+             <td valign="middle">
+	    <a href="liquid_types.pdf">
+		 <img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br> 
+	     </td>
+             <td valign="middle">&nbsp; <a href="liquid_types.html">
+		 Liquid Types 
+		 </a><br>&nbsp; 
+with
+	       Patrick Rondon and Ming Kawaguchi<br>
+         <i>&nbsp; <b> PLDI 2008 </b>:<i> 30th ACM Conference on Programming Language Design and Implementation </i> 
+<br>
+	     </td>
+	   </tr>
+	   
+	   <tr>
+             <td valign="middle">
+	       <a href="radar.ps">
+		   <img src="postscript.png" alt="postscript" width="34"
+		   height="34" border="0"></a><br>
+	       </td>
+             <td valign="middle">
+	       <a href="radar.pdf">
+		 <img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br> 
+	     </td>
+             <td valign="middle">&nbsp; <a href="radar.html">
+		 Dataflow Analysis for Concurrent Programs using Datarace Detection 
+		 </a><br>&nbsp; 
+with
+	       Ravi Chugh, Jan Voung, and Sorin Lerner<br>
+         <i>&nbsp; <b> PLDI 2008 </b>:<i> 30th ACM Conference on Programming Language Design and Implementation </i> 
+<br>
+             </td>
+           </tr>
+	  
+	   <tr>
+             <td valign="middle">
+	       <a href="relay.ps"><img src="postscript.png" alt="postscript" 
+width="34" height="34" border="0"></a> <br>
+             </td>
+             <td valign="middle">
+	       <a href="relay.pdf"><img src="pdf.png" alt="pdf" 
+width="34" height="34" border="0"></a> <br> 
+  		</td>
+             <td valign="middle">&nbsp;<a href="relay.html"> RELAY: Static Race Detection on Millions of Lines of Code</a><br>&nbsp; with Jan Voung and Sorin Lerner<br>
+         <i>&nbsp; <b>FSE 2007 </b> : <i> 15th ACM SIGSOFT Symposium on the Foundations of Software Engineering</i> <br>
+             </td>
+           </tr>
+
+	   <tr>
+             <td valign="middle">
+	       <a href="array_abstractions_from_proofs.ps"><img src="postscript.png" alt="postscript" 
+width="34" height="34" border="0"></a> <br>
+             </td>
+             <td valign="middle">
+	       <a href="array_abstractions_from_proofs.pdf"><img src="pdf.png" alt="pdf" 
+width="34" height="34" border="0"></a> <br> 
+  		</td>
+             <td valign="middle">&nbsp;<a href="array_abstractions_from_proofs.html"> Array Abstractions from Proofs </a><br>&nbsp; 
+               with Kenneth L. McMillan <br>
+         <i>&nbsp; <b>CAV 2007 </b> : <i> 19th Conference on Computer-Aided Verification </i> <br>
+             </td>
+           </tr>
+
+	   <tr>
+             <td valign="middle">
+	       <a href="mace.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle">
+	       <a href="mace.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br> 
+             </td>
+             <td valign="middle">&nbsp; <a
+		 href="mace.html"> Mace: Language Support for Building Distributed Systems </a><br>&nbsp; 
+with
+	       Charles Killian, James Anderson, Ryan Braud and Amin Vahdat <br>
+         <i>&nbsp; <b> PLDI 2007 </b>:<i> 29th ACM Conference on Programming Language Design and Implementation </i> 
+<br>
+             </td>
+           </tr>
+
+	   <tr>
+             <td valign="middle">
+	       <a href="macemc.ps"><img src="postscript.png" 
+alt="postscript" 
+width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle">
+	       
+	       <a href="macemc.pdf"><img src="pdf.png" alt="pdf" 
+width="34" height="34" border="0"></a><br> 
+              
+  		</td>
+             
+             <td valign="middle">&nbsp; <a
+		 href="macemc.html"> Life, Death, and the Critical Transition: Finding Liveness Bugs in Systems Code		 
+	       </a> <br>&nbsp; 
+with
+	       Charles Killian, James Anderson and Amin Vahdat <br>
+	       <i>&nbsp; <b> NSDI 2007 </b>:<i> 4th USENIX Symposium on
+		   Networked Systems Design and Implementation [Best Paper] </i> 
+		 <br>
+             </td>
+           </tr>
+
+	   <tr>
+             <td valign="middle">
+	       <a href="opium.ps"><img src="postscript.png" alt="postscript" 
+width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle">
+	       
+	       <a href="opium.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br> 
+             </td>
+             
+             <td valign="middle">&nbsp; <a
+		 href="opium.html">
+		 OPIUM: Optimum Package Intall/Uninstall Management </a><br>&nbsp; 
+with
+	       Chris Tucker, David Shuffelton and Sorin Lerner<br>
+         <i>&nbsp; <b> ICSE 2007 </b>:<i> 29th ACM/IEEE International Conference on Software Engineering </i> <br>
+             </td>
+           </tr>
+                           
+
+
+	   <tr>
+             <td valign="middle">
+<a href="state_of_the_union.ps"><img 
+src="postscript.png" alt="postscript" width="34" height="34" 
+border="0"></a><br> 
+             </td>
+             <td valign="middle">
+
+<a 
+href="state_of_the_union.pdf"><img 
+src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>   
+         </td>
+             
+             <td valign="middle">&nbsp; <a 
+href="state_of_the_union.html"> 
+State of the Union: Type Inference via Craig Interpolation
+</a><br>&nbsp; with Rupak Majumdar and Ru-Gang Xu<br>
+         <i>&nbsp; <b> TACAS 2007: </b>13th Conference on Tools and Algorithms for the
+		 Construction and Analysis of Systems<br>
+             </td>
+           </tr>
+
+	   <tr>
+             <td valign="middle">
+<a href="lock_allocation.ps"><img 
+src="postscript.png" alt="postscript" width="34" height="34" 
+border="0"></a><br> 
+             </td>
+             <td valign="middle">
+
+<a 
+href="lock_allocation.pdf"><img 
+src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>   
+         </td>
+             
+             <td valign="middle">&nbsp; <a 
+href="lock_allocation.html"> 
+Lock Allocation
+</a><br>&nbsp; with Michael Emmi, Jeff Fischer and Rupak Majumdar<br>
+         <i>&nbsp; <b> POPL 2007 </b>:<i> 34th ACM Symposium on Principles of Programming Languages </i> <br>
+             </td>
+           </tr>
+
+	   	<tr>
+             <td valign="middle"><a 
+href="interprocedural_analysis_of_asynchronous_programs.ps"><img 
+src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle"><a 
+href="interprocedural_analysis_of_asynchronous_programs.pdf"><img 
+src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+             
+             <td valign="middle">&nbsp; <a 
+href="interprocedural_analysis_of_asynchronous_programs.html"> 
+Interprocedural Analysis of Asynchronous Programs</a><br>&nbsp; with Rupak 
+Majumdar<br>
+         <i>&nbsp; <b> POPL 2007 </b>:<i> 34th ACM Symposium on Principles of Programming Languages </i> <br>
+             </td>
+           </tr>
+	   
+	   <tr>
+	     <td valign="middle">
+	       <a
+		  href="bit_level_types_for_high_level_reasoning.ps"><img
+		  src="postscript.png" alt="postscript" width="34"
+		  height="34" border="0"></a><br>
+             </td>
+	     <td valign="middle">
+	       <a
+		 href="bit_level_types_for_high_level_reasoning.pdf"><img
+		 src="pdf.png" alt="pdf" width="34" height="34"
+		 border="0"></a><br>
+             </td>
+
+            <td valign="middle">&nbsp; <a
+		href="bit_level_types_for_high_level_reasoning.html">
+		Bit-Level Types for High-Level Reasoning
+	      </a><!-- <b><font color="#ff0000">   NEW</font></b>--><br>&nbsp; 
+with
+Rupak Majumdar<br>
+<i>&nbsp; <b> FSE 2006 </b>:<i> 14th ACM SIGSOFT Symposium on the
+    Foundations of Software Engineering.</i> <br>
+             </td>
+           </tr>
+	   
+	   <tr>
+		   <td valign="middle"><a
+		       href="structural_invariants.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+	     <td valign="middle"><a
+		 href="structural_invariants.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+
+            <td valign="middle">&nbsp; <a
+		href="structural_invariants.html">Structural Invariants	
+	      </a><!-- <b><font color="#ff0000">   NEW</font></b>--><br>&nbsp; 
+with
+Rupak Majumdar and Ru-Gang Xu <br>
+<i>&nbsp; <b> SAS 2006 </b>:<i> 13th International Static Analysis Symposium</i> <br>
+             </td>
+           </tr>
+   
+
+	   
+	   <tr>
+		   <td valign="middle"><a
+		       href="a_practical_and_complete_approach_to_predicate_refinement.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+	     <td valign="middle"><a
+		 href="a_practical_and_complete_approach_to_predicate_refinement.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+
+            <td valign="middle">&nbsp; <a
+		href="a_practical_and_complete_approach_to_predicate_refinement.html">
+		A Practical and Complete Approach to Predicate Refinement	
+	     </a><!--<b><font color="#ff0000">   NEW</font></b>--><br>&nbsp; 
+with
+	     Kenneth L. McMillan<br>
+	     <i>&nbsp; <b> TACAS 2006 </b>:<i> 12th Conference on Tools and Algorithms for the
+		 Construction and Analysis of Systems</i> <br>
+             </td>
+           </tr>
+	   
+	   
+	   <tr>
+		   <td valign="middle"><a href="permissive_interfaces.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+	     <td valign="middle"><a href="permissive_interfaces.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+
+            <td valign="middle">&nbsp; <a
+		 href="permissive_interfaces.html">
+		 Permissive Interfaces 
+	     </a><!--<b><font color="#ff0000">   NEW</font></b>--><br>&nbsp; 
+with
+	     Thomas A. Henzinger and Rupak Majumdar<br>
+	     <i>&nbsp; <b> FSE 2005 </b>:<i> Symposium on the Foundations
+		 of Software Engineering  </i> <br>
+             </td>
+           </tr>
+
+   <tr>
+             <td valign="middle"><a href="joining_dataflow_with_predicates.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+	     <td valign="middle"><a href="joining_dataflow_with_predicates.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+
+	     <td valign="middle">&nbsp; 
+	       <a
+		 href="joining_dataflow_with_predicates.html">
+		 Joining Dataflow with Predicates 
+		 </a><br>&nbsp; with
+	    Jeffrey Fischer and Rupak Majumdar<br>
+	     <i>&nbsp; <b> FSE 2005 </b>:<i> Symposium on the Foundations
+		 of Software Engineering  </i> <br>
+             </td>
+           </tr>
+
+
+	   
+	   <tr>
+             <td valign="middle"><a href="counterexample-guided_planning.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+	     <td valign="middle"><a href="counterexample-guided_planning.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+	     <td valign="middle">&nbsp; 
+	       <a
+		 href="counterexample-guided_planning.html">
+		 Counterexample-Guided Planning
+	     </a><br>&nbsp; with
+	     Krishnendu Chatterjee, Thomas A. Henzinger and Rupak Majumdar <br>
+	     <i>&nbsp; <b> UAI 2005 </b>:<i> 21st Conference on Uncertainty
+		 in Artificial Intelligence </i> <br>
+             </td>
+           </tr>
+
+	   
+ <tr>
+             <td valign="middle"><a href="interpolant_based_transition_relation_approximation.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+	     <td valign="middle"><a href="interpolant_based_transition_relation_approximation.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle">&nbsp; <a
+	     href="interpolant_based_transition_relation_approximation.html">
+	     Interpolant-based Transition Relation Approximation 
+	     </a><br>&nbsp; with Kenneth L. McMillan <br>
+         <i>&nbsp; 
+<b> CAV 2005 </b>:<i> 17th Conference on    Computer-Aided Verification </i> <br>
+             </td>
+           </tr>
+
+        <tr>
+              <td valign="middle"><a
+	      href="path_slicing.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle"><a
+	     href="path_slicing.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+	     
+	     <td valign="middle">&nbsp; <a href="path_slicing.html">
+Path Slicing </a> <br>&nbsp; with Rupak Majumdar<br>
+         <i>&nbsp; <b> PLDI 2005 </b>:<i> 27th ACM Conference on Programming Language Design and Implementation </i> <br>
+             </td>
+           </tr>
+
+         <tr>
+               <td valign="middle"><a href="race_checking_by_context_inference.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle"><a href="race_checking_by_context_inference.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+           
+             <td valign="middle">&nbsp; <a 
+href="race_checking_by_context_inference.html"> 
+Race Checking by Context Inference</a> <br>&nbsp; with Thomas A. 
+Henzinger, Rupak Majumdar<br>
+         <i>&nbsp; <b> PLDI 2004 </b>:<i> 26th ACM Conference on Programming Language Design and Implementation </i> <br>
+             </td>
+           </tr>
+
+	   <tr>
+             <td valign="middle">
+	       <a href="generating_tests_from_counterexamples.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle">
+	       
+	       <a href="generating_tests_from_counterexamples.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br> 
+             </td>
+             
+             <td valign="middle">&nbsp; <a
+		 href="generating_tests_from_counterexamples.html">
+		 Generating Tests from Counterexamples </a><br>&nbsp; with
+	       D. Beyer, A. Chlipala, Thomas A. Henzinger, Rupak Majumdar<br>
+         <i>&nbsp; <b> ICSE 2004 </b>:<i> 26th ACM/IEEE International Conference on Software Engineering </i> <br>
+             </td>
+           </tr>
+                           
+	<tr>
+             <td valign="middle"><a 
+href="abstractions_from_proofs.ps"><img 
+src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle"><a 
+href="abstractions_from_proofs.pdf"><img 
+src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+             
+             <td valign="middle">&nbsp; <a 
+href="abstractions_from_proofs.html"> 
+Abstractions from Proofs </a><br>&nbsp; with Thomas A. Henzinger, Rupak Majumdar, Kenneth L. McMillan<br>
+         <i>&nbsp; <b> POPL 2004 </b>:<i> 31st ACM Symposium on Principles of Programming Languages </i> <br>
+             </td>
+           </tr>
+
+	   <tr>
+             <td valign="middle"><a href="thread-modular_abstraction_refinement.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+	     <td valign="middle"><a href="thread-modular_abstraction_refinement.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+             
+             <td valign="middle">&nbsp; <a
+		 href="thread-modular_abstraction_refinement.html"> Thread-Modular Abstraction Refinement </a><br>&nbsp; with Thomas A. Henzinger, Rupak Majumdar, Shaz Qadeer <br>
+         <i>&nbsp; <b> CAV 2003 </b>:<i> 15th Conference on    Computer-Aided
+Verification </i> <br>
+             </td>
+           </tr>
+
+	   <tr>
+             <td valign="middle"><a 
+		 href="counterexample-guided_control.ps"><img src="postscript.png" alt="postscript" 
+width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle"><a href="counterexample-guided_control.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+             
+             <td valign="middle">&nbsp; <a href="counterexample-guided_control.html"> Counterexample-Guided Control</a><br>&nbsp; with Thomas A. Henzinger, Rupak Majumdar <br>
+         <i>&nbsp; <b> ICALP 2003 </b>:<i> 30th International Colloquium on Automata, Languages
+and    Programming</i> <br>
+             </td>
+           </tr>
+   
+   <tr>
+           <td valign="middle"><a href="extreme_model_checking.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+	         </td>
+		   <td valign="middle"><a href="extreme_model_checking.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td  >
+	     
+	     <td valign="middle">&nbsp; <a href="extreme_model_checking.html"> Extreme Model Checking</a><br>&nbsp; with Thomas A. Henzinger, Rupak Majumdar, Marco Sanvido <br>
+         <i>&nbsp; <i> International Symposium on    Verification:
+Theory and Practice </i>([Invited]) <br>
+	     </td>
+           </tr>
+
+	   <tr>
+             <td valign="middle"><a href="software_verification_with_blast.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle"><a href="software_verification_with_blast.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+             
+             <td valign="middle">&nbsp; <a href="software_verification_with_blast.html"> Software Verification with BLAST </a><br>&nbsp; with Thomas A. Henzinger, Rupak Majumdar, Gregoire Sutre <br>
+         <i>&nbsp; <b> SPIN 2003 </b>:<i>  10th International Workshop on Model Checking Software </i> <br>
+             </td>
+           </tr>
+
+	   <tr>
+             <td valign="middle"><a href="temporal_safety_proofs_for_systems_code.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle"><a href="temporal_safety_proofs_for_systems_code.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+             
+             <td valign="middle">&nbsp; <a href="temporal_safety_proofs_for_systems_code.html"> Temporal-safety Proofs for Systems Code</a><br>&nbsp; with Thomas A. Henzinger, Rupak Majumdar, George Necula, Westley Weimer, Gregoire Sutre<br>
+         <i>&nbsp; <b> CAV 2002 </b>:<i> 14th Conference on Computer-Aided Verification </i> <br>
+             </td>
+           </tr>
+
+
+	     <tr>
+             <td valign="middle"><a href="lazy_abstraction.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle"><a href="lazy_abstraction.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+             
+             <td valign="middle">&nbsp; <a href="lazy_abstraction.html"> Lazy Abstraction </a><br>&nbsp; with Thomas A. Henzinger, Rupak Majumdar, Gregoire Sutre <br>
+         <i>&nbsp; <b> POPL 2002 </b>:<i> 29th ACM Symposium on Principles of Programming Languages </i> <br>
+             </td>
+           </tr>
+
+	   <tr>
+             <td valign="middle"><a href="compositional_methods_for_probabilistic_systems.ps"><img src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle"><a href="compositional_methods_for_probabilistic_systems.pdf"><img src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+             
+             <td valign="middle">&nbsp; <a href="compositional_methods_for_probabilistic_systems.html"> Compositional Methods for Probabilistic Systems </a><br>&nbsp; with Luca de Alfaro, Thomas A. Henzinger <br>
+         <i>&nbsp; <b> CONCUR 2001 </b>:<i> 12th Conference on Concurrency Theory </i> <br>
+             </td>
+           </tr>
+
+
+	   <tr>
+             <td valign="middle"><a href="microarchitectural_verification_by_compositional_model_checking.ps"><img 
+src="postscript.png" alt="postscript" width="34" height="34" border="0"></a><br>
+             </td>
+             <td valign="middle"><a href="microarchitectural_verification_by_compositional_model_checking.pdf"><img 
+src="pdf.png" alt="pdf" width="34" height="34" border="0"></a><br>
+             </td>
+             
+             <td valign="middle">&nbsp; <a href="microarchitectural_verification_by_compositional_model_checking.html"> 
+Microarchitecture Verification by Compositional Model Checking </a><br>&nbsp; with Kenneth L. McMillan <br>
+         <i>&nbsp; <b> CAV 2001 </b>:<i> 13th Conference on Computer-Aided
+Verification </i> <br>
+             </td>
+           </tr>
+  </tbody>       
+</table>
+<br>
+
+
+<hr>
+
+<h2>Selected Talks</h2>
+
+<ul>
+  <li> <a href="jhala-10-macemc.pptx">Finding Liveness Bugs in Distributed Systems 
+  </a>
+  </li>
+
+  <li> <a href="jhala-10-safety.pptx">Algorithmic Software Verification
+  </a></li>
+  <li> Type-based Data Structure Verification <a href="type-based_data_structure_verification.pptx"></a>
+  <li> Liquid Types <a href="liquid_types_data_structures_fp.pptx">PPT07</a>
+  <li> Abstractions from Proofs (Dec 2007) <a href="abstractions_from_proofs_2007.pptx">PPT07</a>
+  <li> Three lectures on Lazy Abstraction (July 2005): 
+        <a href="http://www.cs.ucsd.edu/~rjhala/blast-lecture-long.ppt"> Condensed </a>
+        <a href="http://www.cs.ucsd.edu/~rjhala/la-lecture1.ppt"> Lecture 1</a>
+	<a href="http://www.cs.ucsd.edu/~rjhala/la-lecture2.ppt"> Lecture 2</a>
+	<a href="http://www.cs.ucsd.edu/~rjhala/la-lecture3.ppt"> Lecture 3</a>
+  </li>	 
+  <li><a href="array_abstractions_from_proofs.pptx">Array Abstractions From Proofs (CAV '07) </a>
+  <a href="array_abstractions_from_proofs-oldformat.ppt">PPT03</a>
+</li>
+
+<li><a href="interprocedural_analysis_of_asynchronous_programs.ppt">
+  Interprocedural Analysis of Asynchronous Programs
+  (POPL '07)</a></li>
+<li><a href="bit_level_types_for_high_level_reasoning.ppt">Bit-level Types
+  for High-level Reasoning (FSE '06)</a></li>
+<li><a
+  href="spin-tutorial05.ppt">  
+  Tutorial: Software Verification with BLAST (SPIN '05)</a></li>
+
+<li><a
+  href="permissive-interfaces.ppt">  
+  Permissive Interfaces (FSE '05)</a></li>
+
+<li><a
+  href="http://www.cs.ucsd.edu/~rjhala/papers/pldi04.ppt">  
+Race Checking by Context Inference (PLDI '04)</a></li>
+
+         <li><a
+	   href="http://www.cs.ucsd.edu/~rjhala/papers/popl04.ppt">  Abstractions
+ from Proofs (POPL '04)</a></li>
+
+          <li><a
+	    href="http://www.cs.ucsd.edu/~rjhala/papers/tar.ppt"> Thread-modular
+        Abstraction Refinement (CAV '03)</a></li>
+                <li><a
+		  href="http://www.cs.ucsd.edu/~rjhala/papers/cav02-final.ppt">
+       Temporal-safety    Proofs for Systems Code (CAV '02)</a>    </li>
+   <li><a
+     href="http://www.cs.ucsd.edu/~rjhala/papers/blast.ppt">Lazy 
+  Abstraction (POPL '02)</a>    </li>
+        <li><a
+	  href="http://www.cs.ucsd.edu/~rjhala/papers/prob-compos.ppt">
+       Compositional    Methods for Probabilistic Systems (CONCUR '01)</a>
+       </li>
+          <li><a
+	    href="http://www.cs.ucsd.edu/~rjhala/papers/oop.ppt">Microarchitectural 
+      Verification by Compositional Model Checking (CAV '01)</a>    </li>
+   </ul>
+   
+<hr>
+<!--
+<h2>Co-Authors</h2>
+
+<ul>
+       <li><a href="http://www.cse.ucsc.edu/%7Eluca">Luca de Alfaro</a></li>
+       
+       <li><a href="http://mtc.epfl.ch/~beyer">Dirk Beyer</a></li>
+      
+       <li><a href="http://www.cs.berkeley.edu/%7Eadamc">Adam Chlipala</a></li>
+      <li><a href="http//www-cad.eecs.berkeley.edu/~c_krish">Krishnendu Chatterjee</a></li>
+       
+       <li><a href="http://www.cs.ucla.edu/%7Efischer">Jeff Fischer</a></li>
+       <li><a href="http://www-cad.eecs.berkeley.edu/%7Etah">Thomas A. Henzinger</a><br>
+         </li>
+         <li><a href="http://www.cs.ucla.edu/%7Erupak">Rupak Majumdar</a></li>
+       <li><a href="http://www-cad.eecs.berkeley.edu/%7Ekenmcmil">Kenneth 
+L. McMillan</a></li>
+       <li><a href="http://www.cs.berkeley.edu/%7Enecula">George C. Necula</a></li>
+       <li><a href="http://www.research.microsoft.com/%7Eqadeer">Shaz Qadeer</a></li>
+       <li><a href="http://www-cad.eecs.berkeley.edu/%7Emsanvido">Marco Sanvido</a></li>
+       <li><a href="http://www.labri.fr/%7Esutre">Gregoire Sutre</a></li>
+       <li><a href="http://www.cs.berkeley.edu/%7Eweimer">Westley Weimer</a></li>
+  </ul>
+  -->
+
+</body>
+</html>

@@ -100,6 +100,10 @@ Ranjit Jhala and Rupak Majumdar<br>
 ACM Computing Surveys, Volume 41 Issue 4, October 2009 <br>
 [PDF](static/software-model-checking.pdf), [ACM DL](http://dl.acm.org/citation.cfm?id=1592438&dl=ACM&coll=DL&CFID=679753188&CFTOKEN=54082200)
 
+**Program Verification by Lazy Abstraction** <br>
+Ranjit Jhala <br>
+Ph.D Dissertation, UC Berkeley, 2004 <br>
+[PDF](static/jhala-thesis.pdf)
 
 ## Papers
 
