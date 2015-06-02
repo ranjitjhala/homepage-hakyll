@@ -7,8 +7,8 @@ BIBLIO=./biblio.hs
 BIB=templates/bib.json
 BIBT=templates/bib.template
 PUBMD=pubs.markdown
-RESBMD=research-base.markdown
-RESMD=research.markdown
+RESBMD=src/research-base.markdown
+RESMD=src/research.markdown
 
 all: bib $(HAKYLL)
 	./$(HAKYLL) rebuild
