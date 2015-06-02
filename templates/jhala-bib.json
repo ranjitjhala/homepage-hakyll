@@ -4,25 +4,7 @@
   , "venue"   : "ACM Symposium on Principles of Programming Languages"
   , "short"   : "POPL"
   , "tags"    : [ "Software Model Checking", "BLAST" ]
-  , "url"     : "http://www.google.com"
-  }
-
-, { "title"   : "Lazy Abstraction"
-  , "authors" : [ "Thomas Henzinger", "Ranjit Jhala", "Rupak Majumdar", "Gregoire Sutre" ]
-  , "year"    : 2002
-  , "venue"   : "ACM Symposium on Principles of Programming Languages"
-  , "short"   : "POPL"
-  , "tags"    : [ "Software Model Checking", "BLAST" ]
-  , "url"     : "http://www.google.com"
-  }
-
-, { "title"   : "Type Targeted Testing"
-  , "authors" : [ "Eric Seidel", "Niki Vazou", "Ranjit Jhala" ]
-  , "year"    : 2015
-  , "venue"   : "European Symposium on Programming"
-  , "short"   : "ESOP"
-  , "tags"    : [ "Testing", "Liquid Types", "LiquidHaskell"]
-  , "url"     : "http://www.google.com"
+  , "url"     : "static/lazy_abstraction.pdf"
   }
 
 , { "title"   : "Abstract Refinement Types"
@@ -33,7 +15,6 @@
   , "tags"    : [ "LiquidHaskell" ]
   , "url"     : "static/abstract_refinement_types.pdf"
   }
-
 , { "title"   : "LiquidHaskell: Experience With Refinement Types In The Real World"
   , "authors" : [ "Niki Vazou", "Eric Seidel", "Ranjit Jhala" ]
   , "year"    : 2014
@@ -60,7 +41,6 @@
   , "tags"    : [ "LiquidHaskell" ]
   , "url"     : "static/type_targeted_testing.pdf"
   }
-
 , { "title"   : "Trust but Verify: Two Phase Typing for Dynamic Languages"
   , "authors" : [ "Panagiotis Vekris", "Benjamin Cosman", "Ranjit Jhala" ]
   , "year"    : 2015
@@ -69,7 +49,6 @@
   , "tags"    : [ "RefScript" ]
   , "url"     : "static/trust_but_verify.pdf"
   }
-
 , { "title"   : "On Subnormal Floating Point and Abnormal Timing"
   , "authors" : [ "Mark Andrysco", "Keaton Mowery", "David Kohlbrenner", "Ranjit Jhala", "Sorin Lerner", "Hovav Shacham"]
   , "year"    : 2015
@@ -78,7 +57,6 @@
   , "tags"    : [ "Timing" ]
   , "url"     : "static/denormal.pdf"
   }
-
 , { "title"   : "Bounded Refinement Types"
   , "authors" : [ "Niki Vazou", "Alexander Bakst", "Ranjit Jhala" ]
   , "year"    : 2015
@@ -87,7 +65,6 @@
   , "tags"    : [ "LiquidHaskell" ]
   , "url"     : "static/bounded_refinement_types.pdf"
   }
-
 , { "title"   : "Dependent Types for JavaScript"
   , "authors" : [ "Ravi Chugh", "David Herman", "Ranjit Jhala" ]
   , "year"    : 2012
@@ -96,7 +73,6 @@
   , "tags"    : [ "DJS" ]
   , "url"     : "static/dependent_types_for_javascript.pdf"
   }
-
 , { "title"   : "CSolve: Verifying C With Liquid Types"
   , "authors" : [ "Patrick Rondon", "Ming Kawaguchi", "Alexander Bakst", "Ranjit Jhala"]
   , "year"    : 2012
@@ -104,7 +80,6 @@
   , "short"   : "CAV"
   , "url"     : "static/csolve_verifying_c_with_liquid_types.pdf"
   }
-
 , { "title"   : "Deterministic Parallelism via Liquid Effects"
   , "authors" : ["Ming Kawaguchi", "Patrick Rondon", "Alexander Bakst", "Ranjit Jhala"]
   , "year"    : 2012
@@ -130,7 +105,7 @@
   }
 
 , { "title"   : "HMC: Verifying Functional Programs With Abstract Interpreters"
-  , "authors" : ["Rupak Majumdar", Andrey Rybalchenko, "Ranjit Jhala"]
+  , "authors" : ["Rupak Majumdar", "Andrey Rybalchenko", "Ranjit Jhala"]
   , "year"    : 2011
   , "venue"   : "23rd Conference on Computer-Aided Verification"
   , "short"   : "CAV"
@@ -166,7 +141,7 @@
    , "year"    : 2010
    , "venue"   : "16th ACM SIGSOFT Symposium on the Foundations of Software Engineering"
    , "short"   : "FSE"
-   , "url"     : "static/finding_latent_performance_bugs_in_systems_implementations.pdf">
+   , "url"     : "static/finding_latent_performance_bugs_in_systems_implementations.pdf"
    }
 
  , { "title"   : "Low-level Liquid Types"
@@ -178,7 +153,7 @@
    }
 
  , { "title"   : "Type-based Data Structure Verification"
-   , "authors" : ["Ming Kawaguchi, Patrick Rondon, "Ranjit Jhala"]
+   , "authors" : ["Ming Kawaguchi", "Patrick Rondon", "Ranjit Jhala"]
    , "year"    : 2009
    , "venue"   : "31st ACM Conference on Programming Language Design and Implementation"
    , "short"   : "PLDI"
@@ -243,7 +218,7 @@
 
  , { "title"   : "Mace: Language Support for Building Distributed Systems"
    , "authors" : ["Charles Killian", "James Anderson", "Ryan Braud", "Ranjit Jhala", "Amin Vahdat"]
-   , "year"    : "2007
+   , "year"    : 2007
    , "venue"   : "29th ACM Conference on Programming Language Design and Implementation"
    , "short"   : "PLDI"
    , "url"     : "static/mace.pdf"
@@ -314,7 +289,7 @@
    }
 
  , { "title"   : "Permissive Interfaces"
-   , "authors" : ["Thomas A. Henzinger, "Ranjit Jhala", "Rupak Majumdar"]
+   , "authors" : ["Thomas A. Henzinger", "Ranjit Jhala", "Rupak Majumdar"]
    , "year"    : 2005
    , "venue"   : "13th ACM SIGSOFT Symposium on the Foundations of Software Engineering"
    , "short"   : "FSE"
@@ -384,7 +359,6 @@
    , "short"   : "CAV"
    , "url"     : "static/thread-modular_abstraction_refinement.pdf"
    }
-
  , { "title"   : "Counterexample-Guided Control"
    , "authors" : ["Thomas A. Henzinger", "Ranjit Jhala", "Rupak Majumdar"]
    , "year"    : 2003
@@ -392,7 +366,6 @@
    , "short"   : "ICALP"
    , "url"     : "static/counterexample-guided_control.pdf"
    }
-
  , { "title"   : "Extreme Model Checking"
    , "authors" : ["Thomas A. Henzinger", "Ranjit Jhala", "Rupak Majumdar", "Marco Sanvido"]
    , "year"    : 2003
