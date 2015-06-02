@@ -6,9 +6,9 @@ HAKYLL=website
 BIBLIO=./biblio.hs
 BIB=templates/bib.json
 BIBT=templates/bib.template
-PUBMD=pubs.markdown
-RESBMD=src/research-base.markdown
-RESMD=src/research.markdown
+RESBMD=src/research.markdown
+PUBMD=_build/pubs.markdown
+RESMD=_build/research.markdown
 
 all: bib $(HAKYLL)
 	./$(HAKYLL) rebuild
