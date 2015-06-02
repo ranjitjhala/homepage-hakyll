@@ -53,7 +53,8 @@ Teaching
 
 Currently I am teaching:
 
-+ CSE 130: Programming Languages [Spring 2015](http://cseweb.ucsd.edu/classes/sp15/cse130-a/)
++ Spring 2015: [CSE 130: Programming Languages](http://cseweb.ucsd.edu/classes/sp15/cse130-a/)
+
 </div>
 
 
