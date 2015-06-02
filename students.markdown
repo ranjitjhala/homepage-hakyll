@@ -1,13 +1,17 @@
 ---
-title: Students
+title: Misc 
 author: Ranjit Jhala
 ---
+
+# Students
+
+I am very fortunate to be able to work with a bunch of fantastic students.
 
 <div class="section">
 Current
 =======
 
-I am very fortunate to be able to work with:
+Currently, I egg on the following crew:
 
 + Niki Vazou
 + Alexander Bakst
@@ -19,7 +23,6 @@ I am very fortunate to be able to work with:
 
 </div>
 
-
 <div class="section">
 
 Former 
@@ -27,10 +30,10 @@ Former
 
 Furthermore, I grateful to have had the chance to work closely with:
 
-+ Ravi Chugh (Ph.D 2014)     &rarr; University of  Chicago
-+ Patrick Rondon (Ph.D 2012) &rarr; Google
-+ Jan Wen Voung (Ph.D 2010)  &rarr; Google
-+ Chip Killian (Ph.D 2007)   &rarr; Google
++ Ravi Chugh     [Ph.D 2014](static/ravi-chugh.pdf)     &rarr; University of  Chicago
++ Patrick Rondon [Ph.D 2012](static/pat-rondon.pdf)     &rarr; Google
++ Jan Wen Voung  [Ph.D 2010](static/jan-voung.pdf)      &rarr; Google
++ Chip Killian   [Ph.D 2007](static/chip-killian.pdf)   &rarr; Google
 
 </div>
 
