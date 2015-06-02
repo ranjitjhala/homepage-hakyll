@@ -10,7 +10,7 @@ specifically, in techniques for building reliable computer systems. My work
 draws from, combines and contributes to methods the areas of Type Systems, Model
 Checking, Program Analysis and Automated Deduction.
 
-# Current Projects
+## Current Projects
 
 <div class="section">
 ## LiquidHaskell
@@ -47,7 +47,7 @@ Data Timing Channels via Denormal Floating Point Computations
 + Papers: [Oakland 2015](static/subnormal.pdf)
 </div>
 
-# Past Projects
+## Past Projects
 
 <div class="section">
 ## CSolve
@@ -86,18 +86,10 @@ Data Timing Channels via Denormal Floating Point Computations
 </div>
 
 
-Publications
-============
 
-Below is a list of things I've helped write. Also at [Google Scholar][scholar], [DBLP][dblp] or [ArXiv][arxiv].
-
-[arxiv]:   http://arxiv.org/find/cs/1/au:+Jhala_R/0/1/0/all/0/1
-[scholar]: https://scholar.google.com/citations?user=H3wb878AAAAJ
-[dblp]:    http://dblp.uni-trier.de/pers/hd/j/Jhala:Ranjit
-
-
-<div class="section">
 ## Monographs
+
+The following monographs are long introductions, suitable for a graduate class:
 
 **Programming With Refinement Types** <br>
 Ranjit Jhala, Eric Seidel and Niki Vazou <br>
@@ -108,6 +100,12 @@ Ranjit Jhala and Rupak Majumdar<br>
 ACM Computing Surveys, Volume 41 Issue 4, October 2009 <br>
 [PDF](static/software-model-checking.pdf), [ACM DL](http://dl.acm.org/citation.cfm?id=1592438&dl=ACM&coll=DL&CFID=679753188&CFTOKEN=54082200)
 
-</div>
 
+## Papers
+
+Below is a list of papers I've written; also at [Google Scholar][scholar], [DBLP][dblp] or [ArXiv][arxiv].
+
+[arxiv]:   http://arxiv.org/find/cs/1/au:+Jhala_R/0/1/0/all/0/1
+[scholar]: https://scholar.google.com/citations?user=H3wb878AAAAJ
+[dblp]:    http://dblp.uni-trier.de/pers/hd/j/Jhala:Ranjit
 

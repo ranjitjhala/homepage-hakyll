@@ -24,7 +24,7 @@ rsync:
 	$(RSYNC) _site/ $(USER) $(HOST) $(TARGET)
 
 clean:
-	rm -rf *.hi *.o .*.swp .*.swo site _site/ _cache/
+	rm -rf *.hi *.o .*.swp .*.swo site _site/ _cache/ _build/*
 
 update: local
 	scp -r -p _site/* rjhala@login.eng.ucsd.edu:$(TARGET)
