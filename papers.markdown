@@ -1,5 +1,0 @@
----
-title: Papers 
-author: Ranjit Jhala 
----
-
