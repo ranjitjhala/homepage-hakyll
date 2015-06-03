@@ -35,10 +35,10 @@ with my fantastic [students](students.html) in the
 [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/).
 Current projects include:
 
-+ [Liquid Haskell](http://github.com/ucsd-progsys/liquidhaskell)
-+ [Refined TypeScript](https://github.com/ucsd-pl/refscript)
-+ [Fixpoint Horn-Clause Solver](https://github.com/ucsd-progsys/liquid-fixpoint)
-+ [Data Timing Channels](subnormal-oakland)
++ Liquid Haskell [ICFP 2015](static/bounded_refinement_types.pdf), [Blog](http://goto.ucsd.edu/liquid) 
++ Refined TypeScript [ECOOP 2015](static/trust_but_verify.pdf) 
++ Data Timing Channels [Oakland 2015](static/subnormal.pdf)
++ Fixpoint Horn-Clause Solver [Github](https://github.com/ucsd-progsys/liquid-fixpoint)
 
 See [my papers](/research.html) for more.
 
