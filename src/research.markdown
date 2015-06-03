@@ -18,7 +18,7 @@ Checking, Program Analysis and Automated Deduction.
 Liquid Types for Haskell
 
 + [Code](http://github.com/ucsd-progsys/liquidhaskell), [Book](http://www.refinement-types.org), [Blog](http://goto.ucsd.edu/liquid/), [Demo](http://ucsd-progsys.github.io/lh-workshop)
-+ Papers: [ICFP 2015](static/bounded-refinement-types.pdf), [ICFP 2014](static/refinement-types-for-haskell.pdf), [Haskell 2014](static/real-world.pdf), [ESOP 2014](static/abstract-refinement-types.pdf) 
++ Papers: [ICFP 2015](static/bounded_refinement_types.pdf), [ICFP 2014](static/refinement_types_for_haskell.pdf), [Haskell 2014](static/real_world_liquid.pdf), [ESOP 2014](static/abstract_refinement_types.pdf) 
 </div>
 
 <div class="section">
@@ -26,8 +26,8 @@ Liquid Types for Haskell
 
 Liquid Types for TypeScript 
 
-+ [Code](https://github.com/ucsd-pl/refscript), [Demo](https://ucsd-progsys.github.io/refscript)
-+ Papers: [ECOOP 2015](static/refscript-ecoop.pdf)
++ [Code](https://github.com/ucsd-pl/refscript) <!--, [Demo](https://ucsd-progsys.github.io/refscript) -->
++ Papers: [ECOOP 2015](static/trust_but_verify.pdf)
 
 </div>
 
@@ -53,14 +53,14 @@ Data Timing Channels via Denormal Floating Point Computations
 ## CSolve
 
 + [Code](http://goto.ucsd.edu/csolve/csolve-2012-04-24.tar.gz)
-+ Papers: [CAV 2012](static/csolve.pdf), [PLDI 2012](static/liquid-effects.pdf), [POPL 2010](static/low-level-liquid-types.pdf)
++ Papers: [CAV 2012](static/csolve_verifying_c_with_liquid_types.pdf), [PLDI 2012](static/deterministic_parallelism_via_liquid_effects.pdf), [POPL 2010](static/low_level_liquid_types.pdf)
 </div>
 
 <div class="section">
 ## DSolve
 
 + [Code](https://github.com/ucsd-progsys/dsolve)
-+ Papers: [PLDI 2008](static/liquid-types.pdf), [PLDI 2009](static/type-based-data-structure-verification.pdf)
++ Papers: [PLDI 2008](static/liquid_types.pdf), [PLDI 2009](static/type-based_data_structure_verification.pdf)
 </div>
 
 <div class="section">
@@ -82,7 +82,7 @@ Data Timing Channels via Denormal Floating Point Computations
 
 + [Wikipedia](http://en.wikipedia.org/wiki/BLAST_model_checker)
 + [Linux Driver Verification](http://linuxtesting.org/results/ldv)
-+ Papers: [POPL 2002](static/lazy-abstraction.pdf), [POPL 2004](static/abstractions-from-proofs.pdf), [PLDI 2004](static/race-checking-by-context-inference.pdf), [PLDI 2005](static/path-slicing.pdf), [TACAS 2007](static/a-practical-and-complete-approach-to-predicate-refinement.pdf)
++ Papers: [POPL 2002](static/lazy_abstraction.pdf), [POPL 2004](static/abstractions_from_proofs.pdf), [PLDI 2004](static/race_checking_by_context_inference.pdf), [PLDI 2005](static/path_slicing.pdf), [TACAS 2007](static/a_practical_and_complete_approach_to_predicate_refinement.pdf)
 </div>
 
 

@@ -55,7 +55,7 @@
   , "venue"   : "36th IEEE Symposium on Security and Privacy"
   , "short"   : "Oakland S&P"
   , "tags"    : [ "Timing" ]
-  , "url"     : "static/denormal.pdf"
+  , "url"     : "static/subnormal.pdf"
   }
 , { "title"   : "Bounded Refinement Types"
   , "authors" : [ "Niki Vazou", "Alexander Bakst", "Ranjit Jhala" ]
