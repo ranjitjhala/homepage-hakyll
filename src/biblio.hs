@@ -1,8 +1,9 @@
-#!/usr/bin/env runhaskell
-
+-- #!/usr/bin/env runhaskell
 
 
 {-# LANGUAGE OverloadedStrings #-}
+
+module Biblio (mkBib) where
 
 import qualified Data.Text.IO        as TIO
 import qualified Data.Text           as T
@@ -21,20 +22,19 @@ import qualified Data.List as L
 -- | Generate Output ----------------------------------------------
 -------------------------------------------------------------------
 
+{-
 main :: IO ()
 main = do
   (tpltF:bibF:outF:_) <- getArgs
   mkBibHtml tpltF bibF outF
   -- where
-  --   tpltF = "templates/bib.template"
-  --   bibF  = "templates/bib.json"
-  --   outF  = "pubs.markdown"
+-}
 
-mkBibHtml tpltF bibF outF = do
+mkBib :: FilePath -> FilePath -> FilePath -> IO ()
+mkBib tpltF bibF outF = do
   tplStr <- TIO.readFile tpltF
   ypubs  <- yearPubs <$> readBib bibF
-  let htmlStr = renderYears ypubs tplStr
-  TIO.writeFile outF htmlStr
+  TIO.writeFile outF  $ renderYears ypubs tplStr
 
 readBib :: FilePath -> IO [Pub]
 readBib f = do
@@ -135,4 +135,3 @@ instance ToValue Pub where
                 ]
     where
       obj = K.Object . H.fromList
-
