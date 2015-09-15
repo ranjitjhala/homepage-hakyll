@@ -1,20 +1,31 @@
 README
 ======
 
-Build
------
+This repository has the code for [my homepage](http://ranjitjhala.github.io/).
+
+Install
+-------
 
 ```
-$ stack build
-$ stack exec -- homepage rebuild
-$ cp -r _site/* ../ranjitjhala.github.io/
-$ cd ../ranjitjhala.github.io/
-$ git push origin master
+$ mkdir /path/to/homepage/
+$ cd /path/to/homepage/
+$ git clone https://github.com/ranjitjhala/ranjitjhala.github.io.git
+$ git clone https://github.com/ranjitjhala/hakyll-homepage.git
+$ cd hakyll-homepage/
+$ make
 ```
 
-Update
-------
+Updating
+--------
 
-+ **Content** `pages/*.markdown`
++ Edit the relevant files (typically in `pages/` or `templates/`)
++ `make`
 
-+ **Code**    `src/Main.hs`
+
+Configuration
+-------------
+
+You can tweak the paths and such by modifying 
+
++ `src/Main.hs`
+
