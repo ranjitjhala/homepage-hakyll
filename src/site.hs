@@ -1,15 +1,16 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-import           Data.Monoid (mappend)
-import           Control.Arrow ((>>>))
+module Site (makeSite) where
+
+-- import           Data.Monoid (mappend)
+-- import           Control.Arrow ((>>>))
 import           Hakyll
 import           System.FilePath
-import           Paths (tops)
 
 -------------------------------------------------------------------
-makeSite :: IO ()
+makeSite :: Identifier -> [Identifier] -> IO ()
 -------------------------------------------------------------------
-makeSite = hakyll $ do
+makeSite pageT tops = hakyll $ do
   match "static/*" copyDir
 
   match "css/*" $ do
@@ -23,17 +24,19 @@ makeSite = hakyll $ do
   match "templates/*"  $
     compile templateCompiler
 
-  match (fromList tops)
-    makeHtml
+  match (fromList tops) $
+    makeHtml pageT
 
+copyDir :: Rules ()
 copyDir = do
   route   idRoute
   compile copyFileCompiler
 
-makeHtml
+makeHtml :: Identifier -> Rules ()
+makeHtml pageT
   = do route   $ customRoute $ tx . toFilePath
        compile $ pandocCompiler
-         >>= loadAndApplyTemplate pageT  defaultContext
+         >>= loadAndApplyTemplate pageT defaultContext
          >>= relativizeUrls
     where
       tx =  ( `replaceExtension` "html") . takeFileName

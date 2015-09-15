@@ -105,6 +105,12 @@ Ranjit Jhala <br>
 Ph.D Dissertation, UC Berkeley, 2004 <br>
 [PDF](static/jhala-thesis.pdf)
 
+**Formal Methods: Future Directions & Its Transition To Practice**
+Ranjit Jhala & Rupak Majumdar (Eds.) <br>
+Report compiled from [NSF Workshop](http://goto.ucsd.edu/~rjhala/NSFWorkshop/index.html)
+[Summary-PDF](static/nsf-workshop-report-summary.pdf) [Full-PDF](static/nsf-workshop-report-summary.pdf)
+
+
 ## Papers
 
 Below is a list of papers I've written; also at [Google Scholar][scholar], [DBLP][dblp] or [ArXiv][arxiv].

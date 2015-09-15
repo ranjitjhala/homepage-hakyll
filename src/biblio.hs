@@ -1,6 +1,3 @@
--- #!/usr/bin/env runhaskell
-
-
 {-# LANGUAGE OverloadedStrings #-}
 
 module Biblio (mkBib) where
@@ -12,10 +9,10 @@ import           Data.Aeson.Types    hiding (Value)
 import           Data.Aeson          (eitherDecode')
 import qualified Text.Karver         as K
 import qualified Data.HashMap.Strict as H
-import           Control.Applicative
+-- import           Control.Applicative
 import           Control.Monad       (mzero)
 import qualified Data.ByteString.Lazy as LB
-import           System.Environment (getArgs)
+-- import           System.Environment (getArgs)
 import qualified Data.List as L
 
 -------------------------------------------------------------------
@@ -44,7 +41,7 @@ readBib f = do
     Right v  -> return v
 
 renderYears :: [(Int, BibValue)] -> T.Text -> T.Text
-renderYears ibibs tplStr = T.concat [ K.renderTemplate bib tplStr | (i, bib) <- ibibs ]
+renderYears ibibs tplStr = T.concat [ K.renderTemplate bib tplStr | (_, bib) <- ibibs ]
 
 yearPubs :: [Pub] -> [(Int, BibValue)]
 yearPubs = L.sortBy orderByYear
