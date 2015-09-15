@@ -2,9 +2,7 @@ GHPAGE=../ranjitjhala.github.io/
 
 all: site
 	cp -r _site/* $(GHPAGE)
-	cd $(GHPAGE)
-	git commit -a -m "update page"
-	git push origin master
+	cd $(GHPAGE) && git commit -a -m "update page" && git push origin master
 
 site:
 	stack build

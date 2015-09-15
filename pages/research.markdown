@@ -5,7 +5,7 @@ author: Ranjit Jhala
 
 # Research
 
-I am super interested in Programming Languages and Software Engineering, more
+I am interested in Programming Languages and Software Engineering, more
 specifically, in techniques for building reliable computer systems. My work
 draws from, combines and contributes to methods the areas of Type Systems, Model
 Checking, Program Analysis and Automated Deduction.
