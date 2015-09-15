@@ -6,12 +6,12 @@ import           Biblio
 import           Site
 import           Misc
 import           System.FilePath ((</>))
-
+import           Hakyll
 
 main :: IO ()
 main = do
   mkBib bibT bibF pubsF
-  concatFiles [pResF, pubsF] bResF
+  concatFiles [pResF, pubsF] (toFilePath bResF)
   makeSite pageT tops
 
 --------------------------------------------------------------------------------
@@ -27,6 +27,7 @@ bibF  = "templates/jhala-bib.json"
 pubsF = "_build/pubs.markdown"
 
 -- | Pages Files
+tops  :: [Identifier]
 tops  = [ "pages/index.markdown"
         , "pages/teaching.markdown"
         , "pages/students.markdown"
@@ -35,6 +36,5 @@ tops  = [ "pages/index.markdown"
         ]
 
 -- | Generated Files
-bResF = "_build" </> resF
-pResF = "pages"  </> resF
-resF  = "research.markdown"
+bResF = "_build/research.markdown"
+pResF = "pages/research.markdown"
