@@ -1,15 +1,17 @@
 README
 ======
 
-+ Home
-  
-+ Research 
+Build
+-----
 
-  - list papers (!)
-  
-+ Teaching 
-  - list classes
-  
-+ Students 
-  - add homepages
++ **Code** `stack build`
 
++ **Content** `stack exec -- homepage rebuild`
+
+
+Update
+------
+
++ **Content** `pages/*.markdown`
+
++ **Code**    `src/Main.hs`
