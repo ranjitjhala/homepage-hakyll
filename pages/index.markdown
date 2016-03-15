@@ -19,7 +19,7 @@ Contact
 + **Office:** CSE 3110
 + **Phone:** (858) 534 1420
 + **Email:** `jhala@cs.ucsd.edu`
-
++ **Parking:** [CSE Visitor Parking Map](static/visitor-parking.png) 
 </div>
 
 
@@ -53,7 +53,7 @@ Teaching
 
 Currently I am teaching:
 
-+ Spring 2015: [CSE 130: Programming Languages](http://cseweb.ucsd.edu/classes/sp15/cse130-a/)
++ Winter 2016: [CSE 230: Graduate Programming Languages](http://www.cs.ucsd.edu/classes/wi16/cse230-a)
 
 </div>
 
