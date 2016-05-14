@@ -49,6 +49,22 @@
   , "tags"    : [ "RefScript" ]
   , "url"     : "static/trust_but_verify.pdf"
   }
+, { "title"   : "Refinement Types for Typescript"
+  , "authors" : [ "Panagiotis Vekris", "Benjamin Cosman", "Ranjit Jhala" ]
+  , "year"    : 2016
+  , "venue"   : "34th ACM Conference on Programming Languages Design and Implementation" 
+  , "short"   : "PLDI"
+  , "tags"    : [ "RefScript" ]
+  , "url"     : "static/refinement_types_for_typescript.pdf"
+  }
+, { "title"   : "Predicate Abstraction for Linked Data Structures"
+  , "authors" : [ "Alexander Bakst", "Ranjit Jhala" ]
+  , "year"    : 2016
+  , "venue"   : "16th International Conference on Verification, Model Checking and Abstract Interpretation" 
+  , "short"   : "VMCAI"
+  , "tags"    : [ "RefScript" ]
+  , "url"     : "http://arxiv.org/pdf/1505.02298v2.pdf"
+  }
 , { "title"   : "On Subnormal Floating Point and Abnormal Timing"
   , "authors" : [ "Mark Andrysco", "Keaton Mowery", "David Kohlbrenner", "Ranjit Jhala", "Sorin Lerner", "Hovav Shacham"]
   , "year"    : 2015
@@ -102,6 +118,14 @@
   , "venue"   : "39th ACM Symposium on Principles of Programming Languages"
   , "short"   : "POPL"
   , "url"     : "static/nested_refinements_a_logic_for_duck_typing.pdf"
+  }
+
+, { "title"   : "Printing Floating Point Numbers: A faster, always correct method" 
+  , "authors" : ["Marc Andrysco", "Ranjit Jhala", "Sorin Lerner"]
+  , "year"    : 2016
+  , "venue"   : "43rd ACM Symposium on Principles of Programming Languages"
+  , "short"   : "POPL"
+  , "url"     : "static/fp-printing-popl16.pdf"
   }
 
 , { "title"   : "HMC: Verifying Functional Programs With Abstract Interpreters"

@@ -10,7 +10,7 @@ author: Ranjit Jhala
 Current
 =======
 
-+ Winter 2016: [CSE 230: Graduate Programming Languages](http://www.cs.ucsd.edu/classes/wi16/cse230-a)
++ Spring 2016: [CSE 130: Programming Languages](http://cseweb.ucsd.edu/classes/sp16/cse130-a/)
 
 </div>
 
@@ -33,6 +33,7 @@ Special Topics
 CSE 230
 =======
 
++ Winter 2016: [CSE 230: Graduate Programming Languages](http://www.cs.ucsd.edu/classes/wi16/cse230-a)
 + Winter 2015: [CSE 230: Graduate Programming Languages](http://www.cs.ucsd.edu/classes/wi15/cse230-a)
 + Winter 2014: [CSE 230: Graduate Programming Languages](http://www.cs.ucsd.edu/classes/wi14/cse230-a)
 + Winter 2013: [CSE 230: Graduate Programming Languages](http://www.cs.ucsd.edu/classes/wi13/cse230-a)

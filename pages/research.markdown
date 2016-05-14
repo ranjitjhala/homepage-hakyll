@@ -13,21 +13,24 @@ Checking, Program Analysis and Automated Deduction.
 ## Current Projects
 
 <div class="section">
+
 ## LiquidHaskell
 
 Liquid Types for Haskell
 
-+ [Code](http://github.com/ucsd-progsys/liquidhaskell), [Book](http://www.refinement-types.org), [Blog](http://goto.ucsd.edu/liquid/), [Demo](http://ucsd-progsys.github.io/lh-workshop)
-+ Papers: [ICFP 2015](static/bounded_refinement_types.pdf), [ICFP 2014](static/refinement_types_for_haskell.pdf), [Haskell 2014](static/real_world_liquid.pdf), [ESOP 2014](static/abstract_refinement_types.pdf) 
+
++ [Code][code-lh], [Book][book-lh], [Blog][blog-lh], [Demo][demo-lh]
++ Papers: [ICFP 2015][icfp15], [ICFP 2014][icfp14], [Haskell 2014][hs14], [ESOP 2013][esop13]
+
 </div>
 
 <div class="section">
 ## RefScript
 
-Liquid Types for TypeScript 
+Liquid Types for TypeScript
 
 + [Code](https://github.com/ucsd-pl/refscript) <!--, [Demo](https://ucsd-progsys.github.io/refscript) -->
-+ Papers: [ECOOP 2015](static/trust_but_verify.pdf)
++ Papers: [PLDI 2016][pldi16], [ECOOP 2015][ecoop15], [VMCAI 2016][vmcai16]
 
 </div>
 
@@ -118,4 +121,16 @@ Below is a list of papers I've written; also at [Google Scholar][scholar], [DBLP
 [arxiv]:   http://arxiv.org/find/cs/1/au:+Jhala_R/0/1/0/all/0/1
 [scholar]: https://scholar.google.com/citations?user=H3wb878AAAAJ
 [dblp]:    http://dblp.uni-trier.de/pers/hd/j/Jhala:Ranjit
+[code-lh]: http://github.com/ucsd-progsys/liquidhaskell
+[book-lh]: http://www.refinement-types.org
+[blog-lh]: http://goto.ucsd.edu/liquid
+[demo-lh]: http://ucsd-progsys.github.io/lh-workshop
 
+[popl16]: static/fp-printing-popl16.pdf
+[pldi16]: static/trust_but_verify.pdf
+[vmcai16]: http://arxiv.org/pdf/1505.02298v2.pdf
+[ecoop15]: static/trust_but_verify.pdf
+[icfp15]: static/bounded_refinement_types.pdf
+[icfp14]: static/refinement_types_for_haskell.pdf
+[hs14]:   static/real_world_liquid.pdf
+[esop13]: static/abstract_refinement_types.pdf
