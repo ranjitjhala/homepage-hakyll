@@ -65,6 +65,14 @@
   , "tags"    : [ "RefScript" ]
   , "url"     : "http://arxiv.org/pdf/1505.02298v2.pdf"
   }
+, { "title"   : "Dynamic Witnesses for Static Type Errors"
+  , "authors" : [ "Eric Seidel", "Ranjit Jhala", "Westley Weimer" ]
+  , "year"    : 2016
+  , "venue"   : "21st ACM International Conference on Functional Programming"
+  , "short"   : "ICFP"
+  , "tags"    : [ "Nanomaly" ]
+  , "url"     : "static/dynamic_witnesses_for_static_type_errors.pdf"
+  }
 , { "title"   : "On Subnormal Floating Point and Abnormal Timing"
   , "authors" : [ "Mark Andrysco", "Keaton Mowery", "David Kohlbrenner", "Ranjit Jhala", "Sorin Lerner", "Hovav Shacham"]
   , "year"    : 2015

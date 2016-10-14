@@ -35,10 +35,12 @@ with my fantastic [students](students.html) in the
 [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/).
 Current projects include:
 
++ Witnessing Type Errors [[ICFP 2016]](static/dynamic_witnesses_for_static_type_errors.pdf)
 + Liquid Haskell [[ICFP 2015]](static/bounded_refinement_types.pdf), [[Blog]](http://goto.ucsd.edu/liquid) 
-+ Refined TypeScript [[ECOOP 2015]](static/trust_but_verify.pdf) 
++ Refined TypeScript [[PLDI 2016]](static/refinement_types_for_typescript.pdf), [[ECOOP 2015]](static/trust_but_verify.pdf) 
 + Data Timing Channels [[Oakland 2015]](static/subnormal.pdf)
 + Fixpoint Horn-Clause Solver [[Github]](https://github.com/ucsd-progsys/liquid-fixpoint)
+
 
 See [my papers](/research.html) for more.
 
@@ -53,7 +55,10 @@ Teaching
 
 Currently I am teaching:
 
-+ Spring 2016: [CSE 130: Programming Languages](http://cseweb.ucsd.edu/classes/sp16/cse130-a/)
++ Fall 2016: [CSE 131: Compilers](http://ucsd-progsys.github.io/131-web) 
++ Fall 2016: [CSE 230: Graduate Programming Languages](http://ucsd-pl.github.io/cse230)
+
+
 
 </div>
 

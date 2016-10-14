@@ -127,7 +127,7 @@ Below is a list of papers I've written; also at [Google Scholar][scholar], [DBLP
 [demo-lh]: http://ucsd-progsys.github.io/lh-workshop
 
 [popl16]: static/fp-printing-popl16.pdf
-[pldi16]: static/trust_but_verify.pdf
+[pldi16]: static/refinement_types_for_typescript.pdf
 [vmcai16]: http://arxiv.org/pdf/1505.02298v2.pdf
 [ecoop15]: static/trust_but_verify.pdf
 [icfp15]: static/bounded_refinement_types.pdf

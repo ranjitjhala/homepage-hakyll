@@ -10,7 +10,8 @@ author: Ranjit Jhala
 Current
 =======
 
-+ Spring 2016: [CSE 130: Programming Languages](http://cseweb.ucsd.edu/classes/sp16/cse130-a/)
++ Fall 2016: [CSE 131: Compilers](http://ucsd-progsys.github.io/131-web) 
++ Fall 2016: [CSE 230: Graduate Programming Languages](http://ucsd-pl.github.io/cse230)
 
 </div>
 
@@ -51,6 +52,7 @@ CSE 230
 CSE 130
 =======
 
++ Spring 2016: [CSE 130: Programming Languages](http://cseweb.ucsd.edu/classes/sp16/cse130-a/)
 + Fall   2015: [CSE 130: Programming Languages](http://cseweb.ucsd.edu/classes/fa15/cse130-a/)
 + Spring 2015: [CSE 130: Programming Languages](http://cseweb.ucsd.edu/classes/sp15/cse130-a/)
 + Spring 2014: [CSE 130: Programming Languages](http://www.cs.ucsd.edu/classes/sp14/cse130-a)
