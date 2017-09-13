@@ -46,7 +46,7 @@
   , "year"    : 2015
   , "venue"   : "29th European Conference on Object Oriented Programming"
   , "short"   : "ECOOP"
-  , "tags"    : [ "RefScript" ]
+  , "tags"    : [ "JS", "RefScript" ]
   , "url"     : "static/trust_but_verify.pdf"
   }
 , { "title"   : "Refinement Types for Typescript"
@@ -54,7 +54,7 @@
   , "year"    : 2016
   , "venue"   : "34th ACM Conference on Programming Languages Design and Implementation" 
   , "short"   : "PLDI"
-  , "tags"    : [ "RefScript" ]
+  , "tags"    : [ "JS", "RefScript" ]
   , "url"     : "static/refinement_types_for_typescript.pdf"
   }
 , { "title"   : "Predicate Abstraction for Linked Data Structures"
@@ -62,7 +62,7 @@
   , "year"    : 2016
   , "venue"   : "16th International Conference on Verification, Model Checking and Abstract Interpretation" 
   , "short"   : "VMCAI"
-  , "tags"    : [ "RefScript" ]
+  , "tags"    : [ "JS", "RefScript" ]
   , "url"     : "http://arxiv.org/pdf/1505.02298v2.pdf"
   }
 , { "title"   : "Dynamic Witnesses for Static Type Errors"
@@ -81,6 +81,14 @@
   , "tags"    : [ "Timing" ]
   , "url"     : "static/subnormal.pdf"
   }
+, { "title"   : "Finding and Preventing Bugs in JavaScript Bindings" 
+  , "authors" : [ "Fraser Brown", "Shravan Narayan", "Riad S. Wahby", "Dawson Engler", "Ranjit Jhala", "Deian Stefan"]
+  , "year"    : 2017
+  , "venue"   : "38th IEEE Symposium on Security and Privacy"
+  , "short"   : "Oakland S&P"
+  , "tags"    : [ "JS" ]
+  , "url"     : "static/binding-bugs-sp2017.pdf"
+  }
 , { "title"   : "Bounded Refinement Types"
   , "authors" : [ "Niki Vazou", "Alexander Bakst", "Ranjit Jhala" ]
   , "year"    : 2015
@@ -94,7 +102,7 @@
   , "year"    : 2012
   , "venue"   : "31st ACM Conference on Object-Oriented Programming Systems, Languages and Applications"
   , "short"   : "OOPSLA"
-  , "tags"    : [ "DJS" ]
+  , "tags"    : [ "JS", "DJS" ]
   , "url"     : "static/dependent_types_for_javascript.pdf"
   }
 , { "title"   : "CSolve: Verifying C With Liquid Types"
