@@ -1,4 +1,5 @@
-resolver: nightly-2015-08-26
+# resolver: nightly-2015-08-26
+resolver: lts-8.9 
 
 flags: {}
 

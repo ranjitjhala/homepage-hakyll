@@ -35,12 +35,11 @@ with my fantastic [students](students.html) in the
 [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/).
 Current projects include:
 
-+ Witnessing Type Errors [[ICFP 2016]](static/dynamic_witnesses_for_static_type_errors.pdf)
-+ Liquid Haskell [[ICFP 2015]](static/bounded_refinement_types.pdf), [[Blog]](http://goto.ucsd.edu/liquid)
++ Verifying Distributed Programs [[OOPSLA 2017]](static/canonical_sequentialization.pdf) 
++ Interaction-based Program Analytics [[OOPSLA 2017]](static/learning_to_blame.pdf), [[ICFP 2016]](static/dynamic_witnesses_for_static_type_errors.pdf)
++ Liquid Haskell [[ICFP 2017]](static/local_refinement_typing.pdf), [[ICFP 2015]](static/bounded_refinement_types.pdf), [[Blog]](http://goto.ucsd.edu/liquid)
++ Browser Security [[Oakland 2017]](static/binding-bugs-sp17.pdf), [[Oakland 2015]](static/subnormal.pdf)
 + Refined TypeScript [[PLDI 2016]](static/refinement_types_for_typescript.pdf), [[ECOOP 2015]](static/trust_but_verify.pdf)
-+ Data Timing Channels [[Oakland 2015]](static/subnormal.pdf)
-+ Fixpoint Horn-Clause Solver [[Github]](https://github.com/ucsd-progsys/liquid-fixpoint)
-
 
 See [my papers](/research.html) for more.
 

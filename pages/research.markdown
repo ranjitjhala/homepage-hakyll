@@ -18,11 +18,37 @@ Checking, Program Analysis and Automated Deduction.
 
 Liquid Types for Haskell
 
-
 + [Code][code-lh], [Book][book-lh], [Blog][blog-lh], [Demo][demo-lh]
-+ Papers: [ICFP 2015][icfp15], [ICFP 2014][icfp14], [Haskell 2014][hs14], [ESOP 2013][esop13]
++ Papers: [ICFP 2017][icfp17], [ICFP 2015][icfp15], [ICFP 2014][icfp14], [Haskell 2014][hs14], [ESOP 2013][esop13]
 
 </div>
+
+<div class="section">
+
+## Interaction-based Program Analytics 
+
++ Learning to Blame [Code](code-nate), [OOPSLA 2017](oopsla17-nate)
++ Dynamic Witnesses [Code](code-nanomaly), [ICFP 2016](icfp16) 
+
+</div>
+
+<div class="section">
+
+## Verifying Distributed Programs 
+
++ Canonical Sequentialization: [Code](code-brisk), [OOPSLA 2017](oopsla17-brisk)
+</div>
+
+
+<div class="section">
+## Browser Security 
+
++ Binding Code [Oakland 2017][sp17]
++ Data Timing Channels [Oakland 2015][sp15]
+
+</div>
+
+## Past Projects
 
 <div class="section">
 ## RefScript
@@ -34,23 +60,6 @@ Liquid Types for TypeScript
 
 </div>
 
-<div class="section">
-## Fixpoint
-
-An SMT-based Horn-Clause Solver
-
-+ [Code](https://github.com/ucsd-progsys/liquid-fixpoint)
-</div>
-
-<div class="section">
-## Denormal
-
-Data Timing Channels via Denormal Floating Point Computations
-
-+ Papers: [Oakland 2015](static/subnormal.pdf)
-</div>
-
-## Past Projects
 
 <div class="section">
 ## CSolve
@@ -126,11 +135,22 @@ Below is a list of papers I've written; also at [Google Scholar][scholar], [DBLP
 [blog-lh]: http://goto.ucsd.edu/liquid
 [demo-lh]: http://ucsd-progsys.github.io/lh-workshop
 
+[sp17]: static/binding-bugs-sp2017.pdf
+[sp15]: static/subnormal.pdf
 [popl16]: static/fp-printing-popl16.pdf
 [pldi16]: static/refinement_types_for_typescript.pdf
 [vmcai16]: http://arxiv.org/pdf/1505.02298v2.pdf
 [ecoop15]: static/trust_but_verify.pdf
 [icfp15]: static/bounded_refinement_types.pdf
 [icfp14]: static/refinement_types_for_haskell.pdf
+[icfp17]: static/local_refinement_typing.pdf 
 [hs14]:   static/real_world_liquid.pdf
 [esop13]: static/abstract_refinement_types.pdf
+
+[oopsla17-brisk]: static/canonical_sequentialization.pdf 
+[oopsla17-nate]: static/learning_to_blame.pdf 
+[code-nate]: https://github.com/ucsd-progsys/nate
+[code-nanomaly]: https://github.com/ucsd-progsys/nanomaly
+[code-brisk]: https://github.com/abakst/brisk
+
+

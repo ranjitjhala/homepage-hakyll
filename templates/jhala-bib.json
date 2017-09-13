@@ -23,7 +23,30 @@
   , "tags"    : [ "LiquidHaskell" ]
   , "url"     : "static/real_world_liquid.pdf"
   }
-
+, { "title"   : "Learning to Blame: Localizing Type Errors via Machine Learning"
+  , "authors" : [ "Eric L. Seidel", "Huma Sibghat", "Kamalika Chaudhuri", "Westley Weimer", "Ranjit Jhala" ]
+  , "year"    : 2017
+  , "venue"   : "36th ACM Conference on Object-Oriented Programming Systems, Languages and Applications"
+  , "short"   : "OOPSLA"
+  , "tags"    : [ "types", "program-analytics" ]
+  , "url"     : "static/learning_to_blame.pdf"
+  }
+, { "title"   : "Verifying Distributed Programs via Canonical Sequentialization"
+  , "authors" : [ "Alexander Bakst", "Klaus Gleissenthal", "Rami Gokhan", "Ranjit Jhala" ]
+  , "year"    : 2017
+  , "venue"   : "36th ACM Conference on Object-Oriented Programming Systems, Languages and Applications"
+  , "short"   : "OOPSLA"
+  , "tags"    : [ "model-checking"  ]
+  , "url"     : "static/canonical_sequentialization.pdf"
+  }
+, { "title"   : "Local Refinement Typing"
+  , "authors" : [ "Benjamin Cosman", "Ranjit Jhala" ]
+  , "year"    : 2017
+  , "venue"   : "22nd ACM International Conference on Functional Programming"
+  , "short"   : "ICFP"
+  , "tags"    : [ "LiquidHaskell" ]
+  , "url"     : "static/local_refinement_typing.pdf"
+  }
 , { "title"   : "Refinement Types for Haskell"
   , "authors" : [ "Niki Vazou", "Eric Seidel", "Ranjit Jhala", "Dimitris Vytiniotis", "Simon Peyton-Jones" ]
   , "year"    : 2014
@@ -32,7 +55,6 @@
   , "tags"    : [ "LiquidHaskell" ]
   , "url"     : "static/refinement_types_for_haskell.pdf"
   }
-
 , { "title"   : "Type Targeted Testing"
   , "authors" : [ "Eric Seidel", "Niki Vazou", "Ranjit Jhala" ]
   , "year"    : 2015
@@ -52,7 +74,7 @@
 , { "title"   : "Refinement Types for Typescript"
   , "authors" : [ "Panagiotis Vekris", "Benjamin Cosman", "Ranjit Jhala" ]
   , "year"    : 2016
-  , "venue"   : "34th ACM Conference on Programming Languages Design and Implementation" 
+  , "venue"   : "34th ACM Conference on Programming Languages Design and Implementation"
   , "short"   : "PLDI"
   , "tags"    : [ "JS", "RefScript" ]
   , "url"     : "static/refinement_types_for_typescript.pdf"
@@ -60,7 +82,7 @@
 , { "title"   : "Predicate Abstraction for Linked Data Structures"
   , "authors" : [ "Alexander Bakst", "Ranjit Jhala" ]
   , "year"    : 2016
-  , "venue"   : "16th International Conference on Verification, Model Checking and Abstract Interpretation" 
+  , "venue"   : "16th International Conference on Verification, Model Checking and Abstract Interpretation"
   , "short"   : "VMCAI"
   , "tags"    : [ "JS", "RefScript" ]
   , "url"     : "http://arxiv.org/pdf/1505.02298v2.pdf"
@@ -81,7 +103,7 @@
   , "tags"    : [ "Timing" ]
   , "url"     : "static/subnormal.pdf"
   }
-, { "title"   : "Finding and Preventing Bugs in JavaScript Bindings" 
+, { "title"   : "Finding and Preventing Bugs in JavaScript Bindings"
   , "authors" : [ "Fraser Brown", "Shravan Narayan", "Riad S. Wahby", "Dawson Engler", "Ranjit Jhala", "Deian Stefan"]
   , "year"    : 2017
   , "venue"   : "38th IEEE Symposium on Security and Privacy"
@@ -136,7 +158,7 @@
   , "url"     : "static/nested_refinements_a_logic_for_duck_typing.pdf"
   }
 
-, { "title"   : "Printing Floating Point Numbers: A faster, always correct method" 
+, { "title"   : "Printing Floating Point Numbers: A faster, always correct method"
   , "authors" : ["Marc Andrysco", "Ranjit Jhala", "Sorin Lerner"]
   , "year"    : 2016
   , "venue"   : "43rd ACM Symposium on Principles of Programming Languages"
