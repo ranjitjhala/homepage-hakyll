@@ -25,26 +25,32 @@ Liquid Types for Haskell
 
 <div class="section">
 
-## Interaction-based Program Analytics 
+## Code Analytics 
 
-+ Learning to Blame [Code](code-nate), [OOPSLA 2017](oopsla17-nate)
-+ Dynamic Witnesses [Code](code-nanomaly), [ICFP 2016](icfp16) 
+Analyzing programs using models learned from interaction-traces
+
++ [NATE](code-nate), [OOPSLA 2017](oopsla17-nate)
++ [NanoMaly](code-nanomaly), [ICFP 2016](icfp16) 
 
 </div>
 
 <div class="section">
 
-## Verifying Distributed Programs 
+## Canonical 
 
-+ Canonical Sequentialization: [Code](code-brisk), [OOPSLA 2017](oopsla17-brisk)
+Verifying Distributed Programs via Sequentialization
+
++ [Code](code-brisk), [OOPSLA 2017](oopsla17-brisk)
+
 </div>
 
 
 <div class="section">
 ## Browser Security 
 
-+ Binding Code [Oakland 2017][sp17]
-+ Data Timing Channels [Oakland 2015][sp15]
+Binding bugs and Timing Channels
+
++ Papers: [Oakland 2017][sp17], [Oakland 2015][sp15]
 
 </div>
 
