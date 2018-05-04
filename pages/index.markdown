@@ -54,8 +54,7 @@ Teaching
 
 Currently I am teaching:
 
-+ Spring 2017: [CSE 130: Programming Languages](http://ucsd-cse130.github.io/web)
-
++ Winter 2018: [CSE 131: Compilers](http://ucsd-progsys.github.io/131-web)
 
 
 </div>
