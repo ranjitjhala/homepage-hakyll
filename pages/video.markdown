@@ -11,12 +11,27 @@ Does my face look familiar?
 
 <div class="section">
 
-LiquidHaskell
-=============
+* Language Integrated Verification (PLDI 2018)
 
-A long but beginner friendly (one hopes!) introduction to LiquidHaskell.
+<iframe width="806" height="453" src="https://www.youtube.com/embed/F2tYCxb30WU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<!-- https://www.youtube.com/watch?v=F2tYCxb30WU&feature=youtu.be -->
+
+* Refinement Types for TypeScript (UW PLSE Seminar)
+<iframe width="806" height="453" src="https://www.youtube.com/embed/8DBjDwKI138" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<!-- https://www.youtube.com/watch?v=8DBjDwKI138 -->
+
+* Introduction to Refinement Types (POPL PLMW 2016)
+
+<iframe width="806" height="322" src="https://www.youtube.com/embed/OEdXcn1rx6k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<!-- https://www.youtube.com/watch?v=OEdXcn1rx6k -->
+
+* A long but hopefully beginner friendly introduction to LiquidHaskell.
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/vYh27zz9530" frameborder="0" allowfullscreen></iframe>
+
 
 </div>
 

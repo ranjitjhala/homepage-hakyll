@@ -19,7 +19,7 @@ Checking, Program Analysis and Automated Deduction.
 Liquid Types for Haskell
 
 + [Code][code-lh], [Book][book-lh], [Blog][blog-lh], [Demo][demo-lh]
-+ Papers: [POPL 18](popl18), [ICFP 2017][icfp17], [ICFP 2015][icfp15], [ICFP 2014][icfp14], [Haskell 2014][hs14], [ESOP 2013][esop13]
++ Papers: [POPL 18][popl18], [ICFP 2017][icfp17], [ICFP 2015][icfp15], [ICFP 2014][icfp14], [Haskell 2014][hs14], [ESOP 2013][esop13]
 
 </div>
 
