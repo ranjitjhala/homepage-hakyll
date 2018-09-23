@@ -23,9 +23,6 @@ pageT = "templates/page.template"
 bibT  = "templates/bib.template"
 bibF  = "templates/jhala-bib.json"
 
--- | Temporary Files
-pubsF = "_build/pubs.markdown"
-
 -- | Pages Files
 tops  :: [Identifier]
 tops  = [ "pages/index.markdown"
@@ -34,6 +31,9 @@ tops  = [ "pages/index.markdown"
         , "pages/video.markdown"
         , bResF
         ]
+
+-- | Temporary Files
+pubsF = "_build/pubs.markdown"
 
 -- | Generated Files
 bResF = "_build/research.markdown"
