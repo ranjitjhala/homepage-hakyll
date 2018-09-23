@@ -8,9 +8,8 @@ author: Ranjit Jhala
 
 
 I am a Professor of [Computer Science Engineering](http://www.cs.ucsd.edu)
-in the [Jacobs School of Engineering]( )
-at the
-[University of California, San Diego](http://www.ucsd.edu)
+in the [Jacobs School of Engineering](http://jacobsschool.ucsd.edu)
+at the [University of California, San Diego](http://www.ucsd.edu)
 
 <div class="section">
 Contact
@@ -47,10 +46,13 @@ See [my papers](/research.html) for more.
 </div>
 
 
-
 <div class="section">
 Teaching
 ========
+
+Some general nuggets:
+
++ [ICFP @ PLMW 2018: How to design talks](/static/PLMW-talk-opinionated.pdf)
 
 Currently I am teaching:
 
