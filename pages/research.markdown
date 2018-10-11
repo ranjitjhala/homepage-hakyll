@@ -36,7 +36,7 @@ Analyzing programs using models learned from interaction-traces
 
 <div class="section">
 
-## Canonical 
+## Pretend Synchrony 
 
 Verifying Distributed Programs via Sequentialization
 
@@ -50,7 +50,7 @@ Verifying Distributed Programs via Sequentialization
 
 Binding bugs and Timing Channels
 
-+ Papers: [Oakland 2017][sp17], [Oakland 2015][sp15]
++ Papers: [CCS 2018][ccs18], [Oakland 2017][sp17], [Oakland 2015][sp15]
 
 </div>
 
@@ -141,6 +141,7 @@ Below is a list of papers I've written; also at [Google Scholar][scholar], [DBLP
 [blog-lh]: http://goto.ucsd.edu/liquid
 [demo-lh]: http://ucsd-progsys.github.io/lh-workshop
 
+[ccs18]: static/ctfp-ccs18.pdf
 [sp17]: static/binding-bugs-sp2017.pdf
 [sp15]: static/subnormal.pdf
 [popl16]: static/fp-printing-popl16.pdf

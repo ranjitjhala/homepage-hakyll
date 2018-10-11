@@ -6,6 +6,14 @@
   , "tags"    : [ "Software Model Checking", "BLAST" ]
   , "url"     : "static/lazy_abstraction.pdf"
   }
+, { "title"   : "Towards Verified, Constant-time Floating Point Operations" 
+  , "authors" : [ "Marc Andrysco", "Andres Noetzli", "Fraser Brown", "Deian Stefan", "Ranjit Jhala" ]
+  , "year"    : 2018
+  , "venue"   : "ACM Conference on Computer Security"
+  , "short"   : "CCS"
+  , "tags"    : [ "Timing" ]
+  , "url"     : "static/ctfp-ccs18.pdf"
+  }
 , { "title"   : "Refinement Reflection: Complete Verification with SMT"
   , "authors" : [ "Niki Vazou", "Anish Tondwalkar", "Vikraman Chowdhury", "Ryan Scott", "Ryan Newton", "Philip Wadler", "Ranjit Jhala" ]
   , "year"    : 2018
