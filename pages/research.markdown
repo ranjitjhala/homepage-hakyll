@@ -36,7 +36,7 @@ Analyzing programs using models learned from interaction-traces
 
 <div class="section">
 
-## Pretend Synchrony 
+## Pretend Synch.
 
 Verifying Distributed Programs via Sequentialization
 
