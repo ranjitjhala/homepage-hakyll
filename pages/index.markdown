@@ -37,7 +37,7 @@ Current projects include:
 + Verifying Distributed Programs [[OOPSLA 2017]](/static/canonical_sequentialization.pdf) 
 + Interaction-based Program Analytics [[OOPSLA 2017]](/static/learning_to_blame.pdf), [[ICFP 2016]](/static/dynamic_witnesses_for_static_type_errors.pdf)
 + Liquid Haskell [[POPL 2018]](/static/refinement_reflection.pdf), [[ICFP 2017]](/static/local_refinement_typing.pdf), [[ICFP 2015]](/static/bounded_refinement_types.pdf), [[Blog]](http://goto.ucsd.edu/liquid)
-+ Browser Security [[Oakland 2017]](/static/binding-bugs-sp2017.pdf), [[Oakland 2015]](/static/subnormal.pdf)
++ Browser Security [[CCS 2018]](/static/ctfp-ccs18.pdf), [[Oakland 2017]](/static/binding-bugs-sp2017.pdf), [[Oakland 2015]](/static/subnormal.pdf)
 + Refined TypeScript [[PLDI 2016]](/static/refinement_types_for_typescript.pdf), [[ECOOP 2015]](/static/trust_but_verify.pdf)
 
 See [my papers](/research.html) for more.
@@ -56,7 +56,7 @@ Some general nuggets:
 
 Currently I am teaching:
 
-+ Winter 2018: [CSE 131: Compilers](http://ucsd-progsys.github.io/131-web)
++ Fall 2018: [CSE 131: Compilers](http://ucsd-progsys.github.io/131-web)
 
 
 </div>

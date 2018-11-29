@@ -15,6 +15,10 @@ Does my face look familiar?
 
 <iframe width="806" height="453" src="https://www.youtube.com/embed/F2tYCxb30WU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+* How to give talks (PLMW@ICFP 2018)
+
+<iframe width="806" height="453" src="https://www.youtube.com/watch?v=ZLXtAJPk5r0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 <!-- https://www.youtube.com/watch?v=F2tYCxb30WU&feature=youtu.be -->
 
 * Refinement Types for TypeScript (UW PLSE Seminar)

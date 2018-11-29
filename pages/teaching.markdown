@@ -10,7 +10,7 @@ author: Ranjit Jhala
 Current
 =======
 
-+ Winter 2018: [CSE 131: Compilers](http://ucsd-progsys.github.io/131-web)
++ Fall 2018: [CSE 131: Compilers](http://ucsd-progsys.github.io/131-web)
 
 </div>
 
