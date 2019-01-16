@@ -34,7 +34,7 @@ with my fantastic [students](students.html) in the
 [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/).
 Current projects include:
 
-+ Verifying Distributed Programs [[OOPSLA 2017]](/static/canonical_sequentialization.pdf) 
++ Verifying Distributed Programs [[POPL19]](/static/pretend_synchrony.pdf), [[OOPSLA 2017]](/static/canonical_sequentialization.pdf) 
 + Interaction-based Program Analytics [[OOPSLA 2017]](/static/learning_to_blame.pdf), [[ICFP 2016]](/static/dynamic_witnesses_for_static_type_errors.pdf)
 + Liquid Haskell [[POPL 2018]](/static/refinement_reflection.pdf), [[ICFP 2017]](/static/local_refinement_typing.pdf), [[ICFP 2015]](/static/bounded_refinement_types.pdf), [[Blog]](http://goto.ucsd.edu/liquid)
 + Browser Security [[CCS 2018]](/static/ctfp-ccs18.pdf), [[Oakland 2017]](/static/binding-bugs-sp2017.pdf), [[Oakland 2015]](/static/subnormal.pdf)
@@ -56,8 +56,7 @@ Some general nuggets:
 
 Currently I am teaching:
 
-+ Fall 2018: [CSE 131: Compilers](http://ucsd-progsys.github.io/131-web)
-
++ Winter 2019: [CSE 230: Proofs of Programs (for Programs, by Programs)](https://github.com/ucsd-progsys/230-wi19-web/wiki) 
 
 </div>
 
