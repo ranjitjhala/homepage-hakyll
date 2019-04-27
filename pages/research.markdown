@@ -19,7 +19,7 @@ Checking, Program Analysis and Automated Deduction.
 Liquid Types for Haskell
 
 + [Code][code-lh], [Book][book-lh], [Blog][blog-lh], [Demo][demo-lh]
-+ Papers: [POPL 18][popl18], [ICFP 2017][icfp17], [ICFP 2015][icfp15], [ICFP 2014][icfp14], [Haskell 2014][hs14], [ESOP 2013][esop13]
++ Papers: [PLDI 19][pldi19a], [POPL 18][popl18], [ICFP 2017][icfp17], [ICFP 2015][icfp15], [ICFP 2014][icfp14], [Haskell 2014][hs14], [ESOP 2013][esop13]
 
 </div>
 
@@ -40,6 +40,7 @@ Analyzing programs using models learned from interaction-traces
 
 Verifying Distributed Programs via Sequentialization
 
++ [[POPL 2019]](/static/pretend_synchrony.pdf)
 + [Code](code-brisk), [OOPSLA 2017](oopsla17-brisk)
 
 </div>
@@ -50,7 +51,7 @@ Verifying Distributed Programs via Sequentialization
 
 Binding bugs and Timing Channels
 
-+ Papers: [CCS 2018][ccs18], [Oakland 2017][sp17], [Oakland 2015][sp15]
++ Papers: [PLDI 2019][pldi19b], [CCS 2018][ccs18], [Oakland 2017][sp17], [Oakland 2015][sp15]
 
 </div>
 
@@ -141,6 +142,8 @@ Below is a list of papers I've written; also at [Google Scholar][scholar], [DBLP
 [blog-lh]: http://goto.ucsd.edu/liquid
 [demo-lh]: http://ucsd-progsys.github.io/lh-workshop
 
+[pldi19a]: static/lazy_counterfactual_symbolic_execution.pdf
+[pldi19b]: static/fact_dsl.pdf
 [ccs18]: static/ctfp-ccs18.pdf
 [sp17]: static/binding-bugs-sp2017.pdf
 [sp15]: static/subnormal.pdf

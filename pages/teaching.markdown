@@ -10,7 +10,7 @@ author: Ranjit Jhala
 Current
 =======
 
-+ Winter 2019: [CSE 230: Proofs of Programs (for Programs, by Programs)](https://github.com/ucsd-progsys/230-wi19-web/wiki) 
++ Spring 2019: [CSE 130: Programming Languages](http://ucsd-cse130.github.io/sp19)
 
 </div>
 
@@ -32,6 +32,7 @@ Special Topics
 CSE 230
 =======
 
++ Winter 2019: [CSE 230: Proofs of Programs (for Programs, by Programs)](https://github.com/ucsd-progsys/230-wi19-web/wiki) 
 + Fall   2016: [CSE 230: Graduate Programming Languages](http://ucsd-pl.github.io/cse230)
 + Winter 2016: [CSE 230: Graduate Programming Languages](http://www.cs.ucsd.edu/classes/wi16/cse230-a)
 + Winter 2015: [CSE 230: Graduate Programming Languages](http://www.cs.ucsd.edu/classes/wi15/cse230-a)

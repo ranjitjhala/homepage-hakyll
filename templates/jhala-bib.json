@@ -164,6 +164,33 @@
   , "short"   : "PLDI"
   , "url"     : "static/verifying_gpu_kernels_by_test_amplification.pdf"
   }
+, { "title"   : "Pretend Synchrony: Synchronous Verification of Asynchronous Distributed Programs"
+  , "authors" : ["Klaus von Gleissenthal", "Rami Gokhan", "Alexander Bakst", "Ranjit Jhala"]
+  , "year"    : 2019
+  , "venue"   : "46th ACM Symposium on Principles of Programming Languages"
+  , "short"   : "POPL"
+  , "url"     : "static/pretend_synchrony.pdf"
+  }
+
+ , { "title"   : "Lazy Counterfactual Symbolic Execution"
+   , "authors" : ["William Hallahan", "Anton Xue", "Maxwell Bland", "Ranjit Jhala", "Ruzica Piskac"]
+   , "year"    : 2019
+   , "venue"   : "41st ACM Conference on Programming Language Design and Implementation"
+   , "short"   : "PLDI"
+   , "url"     : "static/lazy_counterfactual_symbolic_execution.pdf"
+   }
+
+ , { "title"   : "FACT: A DSL for Timing-Sensitive Computation"
+   , "authors" : ["Sunjay Cauligi", "Gary Soeller", "Brian Johannesmeyer", "Fraser Brown", "Riad S. Wahby", "John Renner", "Benjamin Gregoire", "Gilles Barthe", "Ranjit Jhala", "Deian Stefan"]
+   , "year"    : 2019
+   , "venue"   : "41st ACM Conference on Programming Language Design and Implementation"
+   , "short"   : "PLDI"
+   , "url"     : "static/fact_dsl.pdf"
+   }
+
+
+
+
 
 , { "title"   : "Nested Refinements: A Logic For Duck Typing"
   , "authors" : ["Ravi Chugh", "Patrick Rondon", "Ranjit Jhala"]
