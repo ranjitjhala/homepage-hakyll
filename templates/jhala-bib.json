@@ -177,7 +177,7 @@
    , "year"    : 2019
    , "venue"   : "41st ACM Conference on Programming Language Design and Implementation"
    , "short"   : "PLDI"
-   , "url"     : "static/lazy_counterfactual_symbolic_execution.pdf"
+   , "url"     : "static/lazy_symex.pdf"
    }
 
  , { "title"   : "FACT: A DSL for Timing-Sensitive Computation"
