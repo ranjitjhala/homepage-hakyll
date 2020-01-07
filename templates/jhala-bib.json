@@ -54,6 +54,14 @@
   , "tags"    : [ "model-checking"  ]
   , "url"     : "static/canonical_sequentialization.pdf"
   }
+, { "title"   : "IODINE: Verifying Constant-Time Execution of Hardware"
+  , "authors" : [ "Klaus Gleissenthal", "Rami Gokhan", "Deian Stefan", "Ranjit Jhala" ]
+  , "year"    : 2019
+  , "venue"   : "28th USENIX Security Symposium"
+  , "short"   : "USENIX Security"
+  , "tags"    : [ "model-checking"  ]
+  , "url"     : "static/iodine.pdf"
+  }
 , { "title"   : "Local Refinement Typing"
   , "authors" : [ "Benjamin Cosman", "Ranjit Jhala" ]
   , "year"    : 2017
@@ -156,13 +164,19 @@
   , "short"   : "PLDI"
   , "url"     : "static/deterministic_parallelism_via_liquid_effects.pdf"
   }
-
 , { "title"   : "Verifying GPU Kernels by Test Amplification"
   , "authors" : ["Alan Leung", "Manish Gupta", "Yuvraj Agarwal", "Rajesh Gupta", "Ranjit Jhala", "Sorin Lerner"]
   , "year"    : 2012
   , "venue"   : "34th ACM Conference on Programming Language Design and Implementation"
   , "short"   : "PLDI"
   , "url"     : "static/verifying_gpu_kernels_by_test_amplification.pdf"
+  }
+, { "title"   : "Program Synthesis by Type-Guided Abstraction Refinement",
+  , "authors" : ["Zheng Guo", "Michael James", "David Justo", "Jiaxiao Zhou", "Ziteng Wang", "Ranjit Jhala", "Nadia Polikarpova"]
+  , "year"    : 2020
+  , "venue"   : "47th ACM Symposium on Principles of Programming Languages"
+  , "short"   : "POPL"
+  , "url"     : "static/hoogle_plus.pdf"
   }
 , { "title"   : "Pretend Synchrony: Synchronous Verification of Asynchronous Distributed Programs"
   , "authors" : ["Klaus von Gleissenthal", "Rami Gokhan", "Alexander Bakst", "Ranjit Jhala"]
@@ -171,7 +185,13 @@
   , "short"   : "POPL"
   , "url"     : "static/pretend_synchrony.pdf"
   }
-
+, { "title"   : "PABLO: Helping Novices Debug Python Code Through Data-Driven Fault Localization"
+  , "authors" : ["Benjamin Cosman", "Madeline Endres", "Georgios Sakkas", "Leon Medvinsky", "Yao-Yuan Yang", "Kamalika Chaudhuri", "Westley Weimer", "Ranjit Jhala"]
+  , "year"    : 2020
+  , "venue"   : "51st ACM Technical Symposium on Computer Science Education"
+  , "short"   : "SIGCSE"
+  , "url"     : "static/pablo.pdf"
+  }
  , { "title"   : "Lazy Counterfactual Symbolic Execution"
    , "authors" : ["William Hallahan", "Anton Xue", "Maxwell Bland", "Ranjit Jhala", "Ruzica Piskac"]
    , "year"    : 2019
@@ -187,10 +207,6 @@
    , "short"   : "PLDI"
    , "url"     : "static/fact_dsl.pdf"
    }
-
-
-
-
 
 , { "title"   : "Nested Refinements: A Logic For Duck Typing"
   , "authors" : ["Ravi Chugh", "Patrick Rondon", "Ranjit Jhala"]

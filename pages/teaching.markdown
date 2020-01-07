@@ -10,7 +10,7 @@ author: Ranjit Jhala
 Current
 =======
 
-+ Spring 2019: [CSE 130: Programming Languages](http://ucsd-cse130.github.io/sp19)
++ Winter 2020: [CSE 130: Programming Languages](http://ucsd-cse130.github.io/wi20)
 
 </div>
 
@@ -61,6 +61,7 @@ CSE 131
 CSE 130
 =======
 
++ Spring 2019: [CSE 130: Programming Languages](http://ucsd-cse130.github.io/sp19)
 + Spring 2017: [CSE 130: Programming Languages](http://ucsd-cse130.github.io/web)
 + Spring 2016: [CSE 130: Programming Languages](http://cseweb.ucsd.edu/classes/sp16/cse130-a/)
 + Fall   2015: [CSE 130: Programming Languages](http://cseweb.ucsd.edu/classes/fa15/cse130-a/)
