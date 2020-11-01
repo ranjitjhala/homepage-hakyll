@@ -195,6 +195,15 @@
   , "short"   : "CAV"
   , "url"     : "static/perimeter.pdf"
   }
+, { "title"   : "Block Public Access: Trust Safety Verification of Access Control Policies"
+  , "authors" : ["Malik Bouchet", "Byron Cook", "Bryant Cutler", "Anna Druzkina", "Andrew Gacek", "Liana Hadarean", 
+	         "Ranjit Jhala", "Brad Marshall", "Dan Peebles", "Neha Rungta", "Cole Schlesinger", "Chriss Stephens", 
+		 "Carsten Varming", "Andy Warfield"]
+  , "year"    : 2020
+  , "venue"   : "Foundations of Software Engineering"
+  , "short"   : "FSE"
+  , "url"     : "static/block_public_access.pdf"
+  }
 , { "title"   : "PABLO: Helping Novices Debug Python Code Through Data-Driven Fault Localization"
   , "authors" : ["Benjamin Cosman", "Madeline Endres", "Georgios Sakkas", "Leon Medvinsky", "Yao-Yuan Yang", "Kamalika Chaudhuri", "Westley Weimer", "Ranjit Jhala"]
   , "year"    : 2020
