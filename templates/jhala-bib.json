@@ -171,7 +171,7 @@
   , "short"   : "PLDI"
   , "url"     : "static/verifying_gpu_kernels_by_test_amplification.pdf"
   }
-, { "title"   : "Program Synthesis by Type-Guided Abstraction Refinement",
+, { "title"   : "Program Synthesis by Type-Guided Abstraction Refinement"
   , "authors" : ["Zheng Guo", "Michael James", "David Justo", "Jiaxiao Zhou", "Ziteng Wang", "Ranjit Jhala", "Nadia Polikarpova"]
   , "year"    : 2020
   , "venue"   : "47th ACM Symposium on Principles of Programming Languages"
@@ -185,12 +185,29 @@
   , "short"   : "POPL"
   , "url"     : "static/pretend_synchrony.pdf"
   }
+, { "title"   : "Stratified Abstraction of Access Control Policies"
+  , "authors" : ["John Backes", "Ulises Berrueco", "Tyler Bray", "Daniel Brim", "Byron Cook", "Andrew Gacek", 
+                 "Ranjit Jhala", "Kasper Søe Luckow", "Sean McLaughlin", "Madhav Menon", "Daniel Peebles", 
+                 "Ujjwal Pugalia", "Neha Rungta", "Cole Schlesinger", "Adam Schodde", "Anvesh Tanuku", 
+                 "Carsten Varming", "Deepa Viswanathan"]
+  , "year"    : 2020
+  , "venue"   : "32nd International Conference on Computer-Aided Verification"
+  , "short"   : "CAV"
+  , "url"     : "static/perimeter.pdf"
+  }
 , { "title"   : "PABLO: Helping Novices Debug Python Code Through Data-Driven Fault Localization"
   , "authors" : ["Benjamin Cosman", "Madeline Endres", "Georgios Sakkas", "Leon Medvinsky", "Yao-Yuan Yang", "Kamalika Chaudhuri", "Westley Weimer", "Ranjit Jhala"]
   , "year"    : 2020
   , "venue"   : "51st ACM Technical Symposium on Computer Science Education"
   , "short"   : "SIGCSE"
   , "url"     : "static/pablo.pdf"
+  }
+, { "title"   : "Type error feedback via analytic program repair"
+  , "authors" : [ "Georgios Sakkas", "Madeline Endres", "Benjamin Cosman", "Westley Weimer", "Ranjit Jhala"]
+  , "year"    : 2020
+  , "venue"   : "42st ACM Conference on Programming Language Design and Implementation"
+  , "short"   : "PLDI"
+  , "url"     : "static/rite.pdf"
   }
  , { "title"   : "Lazy Counterfactual Symbolic Execution"
    , "authors" : ["William Hallahan", "Anton Xue", "Maxwell Bland", "Ranjit Jhala", "Ruzica Piskac"]
@@ -199,7 +216,6 @@
    , "short"   : "PLDI"
    , "url"     : "static/lazy_symex.pdf"
    }
-
  , { "title"   : "FACT: A DSL for Timing-Sensitive Computation"
    , "authors" : ["Sunjay Cauligi", "Gary Soeller", "Brian Johannesmeyer", "Fraser Brown", "Riad S. Wahby", "John Renner", "Benjamin Gregoire", "Gilles Barthe", "Ranjit Jhala", "Deian Stefan"]
    , "year"    : 2019
