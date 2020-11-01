@@ -204,6 +204,13 @@
   , "short"   : "FSE"
   , "url"     : "static/block_public_access.pdf"
   }
+, { "title"   : "InFix: Automatically Repairing Novice Program Inputs"
+  , "authors" : ["Madeline Endres", "Georgios Sakkas", "Benjamin Cosman", "Ranjit Jhala", "Westley Weimer"]
+  , "year"    : 2019
+  , "venue"   : "Automated Software Engineering"
+  , "short"   : "ASE"
+  , "url"     : "static/infix.pdf"
+  }
 , { "title"   : "PABLO: Helping Novices Debug Python Code Through Data-Driven Fault Localization"
   , "authors" : ["Benjamin Cosman", "Madeline Endres", "Georgios Sakkas", "Leon Medvinsky", "Yao-Yuan Yang", "Kamalika Chaudhuri", "Westley Weimer", "Ranjit Jhala"]
   , "year"    : 2020

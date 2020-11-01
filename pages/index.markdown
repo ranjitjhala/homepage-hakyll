@@ -34,7 +34,7 @@ with my fantastic [students](students.html) in the
 Current projects include:
 
 + Verifying Distributed Programs [[POPL 2019]](/static/pretend_synchrony.pdf), [[OOPSLA 2017]](/static/canonical_sequentialization.pdf) 
-+ Interaction-based Program Analytics [[OOPSLA 2017]](/static/learning_to_blame.pdf), [[ICFP 2016]](/static/dynamic_witnesses_for_static_type_errors.pdf)
++ Interaction-based Program Analytics [[OOPSLA 2017]](/static/learning_to_blame.pdf), [[ICFP 2016]](/static/dynamic_witnesses_for_static_type_errors.pdf), [[PLDI 2020]](/static/rite.pdf)
 + Liquid Haskell [[PLDI 2019]](/static/lazy_symex.pdf), [[POPL 2018]](/static/refinement_reflection.pdf), [[ICFP 2017]](/static/local_refinement_typing.pdf), [[ICFP 2015]](/static/bounded_refinement_types.pdf), [[Blog]](http://goto.ucsd.edu/liquid)
 + Data Timing Channels [[USENIX Sec 2019]](/static/iodine.pdf), [[PLDI 2019]](/static/fact_dsl.pdf), [[CCS 2018]](/static/ctfp-ccs18.pdf), [[S&P 2015]](/static/subnormal.pdf)
 + Refined TypeScript [[PLDI 2016]](/static/refinement_types_for_typescript.pdf), [[ECOOP 2015]](/static/trust_but_verify.pdf)

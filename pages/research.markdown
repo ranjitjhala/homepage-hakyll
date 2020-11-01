@@ -29,6 +29,7 @@ Liquid Types for Haskell
 
 Analyzing programs using models learned from interaction-traces
 
++ [[PLDI20]](/static/rite.pdf)
 + [NATE](code-nate), [OOPSLA 2017](oopsla17-nate)
 + [NanoMaly](code-nanomaly), [ICFP 2016](icfp16) 
 
@@ -109,6 +110,11 @@ Liquid Types for TypeScript
 ## Monographs
 
 The following monographs are long introductions, suitable for a graduate class:
+
+**Refinement Types: A Tutorial** <br>
+Ranjit Jhala and Niki Vazou <br>
+[PDF](https://arxiv.org/abs/2010.07763), [Code](https://github.com/ranjitjhala/sprite-lang)<br>
+
 
 **Programming With Refinement Types** <br>
 Ranjit Jhala, Eric Seidel and Niki Vazou <br>
