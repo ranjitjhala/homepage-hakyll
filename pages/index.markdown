@@ -4,7 +4,7 @@ section: Home
 author: Ranjit Jhala
 ---
 
-# Ranjit Jhala ![Photo of Ranjit Jhala](/static/rj-mono.jpg)
+# Ranjit Jhala ![Photo of Ranjit Jhala](/static/rj-color.jpg)
 
 I am a Professor of [Computer Science Engineering](http://www.cs.ucsd.edu)
 in the [Jacobs School of Engineering](http://jacobsschool.ucsd.edu)
