@@ -24,7 +24,7 @@ Currently, I egg on the following crew:
 Former 
 ======
 
-Furthermore, I grateful to have had the chance to work closely with:
+Furthermore, I am grateful to have had the chance to work closely with:
 
 + Panagiotis Vekris [Ph.D 2017](static/vekris.pdf)      &rarr; Facebook
 + Eric Seidel    [Ph.D 2017](static/seidel.pdf)         &rarr; Bloomberg
