@@ -86,6 +86,14 @@
   , "tags"    : [ "LiquidHaskell" ]
   , "url"     : "static/type_targeted_testing.pdf"
   }
+, { "title"   : "Refinements of Futures Past: Higher-Order Specification with Implicit Refinement Types"
+  , "authors" : [ "Anish Tondwalkar", "Matthew Kolosick", "Ranjit Jhala" ]
+  , "year"    : 2021
+  , "venue"   : "35th European Conference on Object Oriented Programming"
+  , "short"   : "ECOOP"
+  , "tags"    : [ "LiquidHaskell" ]
+  , "url"     : "static/implicits-ecoop21.pdf"
+  }
 , { "title"   : "Trust but Verify: Two Phase Typing for Dynamic Languages"
   , "authors" : [ "Panagiotis Vekris", "Benjamin Cosman", "Ranjit Jhala" ]
   , "year"    : 2015
@@ -389,7 +397,13 @@
    , "short"   : "PLDI"
    , "url"     : "static/mace.pdf"
    }
-
+ , { "title"   : "STORM: Refinement Types for Secure Web Applications"
+   , "authors" : ["Nico Lehmann", "Rose Kunkel", "Jordan Brown", "Jean Yang", "Niki Vazou", "Nadia Polikarpova", "Deian Stefan", "Ranjit Jhala"]
+   , "year"    : 2021
+   , "venue"   : "15th USENIX Symposium on Operating Systems Design and Implementation"
+   , "short"   : "OSDI"
+   , "url"     : "static/storm-osdi21.pdf"
+   }
  , { "title"   : "Life, Death, and the Critical Transition: Finding Liveness Bugs in Systems Code"
    , "authors" : ["Charles Killian", "James Anderson", "Ranjit Jhala", "Amin Vahdat"]
    , "year"    : 2007

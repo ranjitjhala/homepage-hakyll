@@ -10,7 +10,7 @@ author: Ranjit Jhala
 Current
 =======
 
-+ Fall 2020: [CSE 230: Graduate Programming Languages](https://ucsd-cse230.github.io/fa20/)
++ Spring 2021 : [CSE 131: Compilers](https://ucsd-cse131.github.io/sp21/)
 
 </div>
 
@@ -32,6 +32,7 @@ Special Topics
 CSE 230
 =======
 
++ Fall 2020: [CSE 230: Graduate Programming Languages](https://ucsd-cse230.github.io/fa20/)
 + Spring 2020: [CSE 230: Graduate Programming Languages](https://ucsd-cse230.github.io/sp20/)
 + Winter 2019: [CSE 230: Proofs of Programs (for Programs, by Programs)](https://github.com/ucsd-progsys/230-wi19-web/wiki) 
 + Fall   2016: [CSE 230: Graduate Programming Languages](http://ucsd-pl.github.io/cse230)
@@ -62,6 +63,7 @@ CSE 131
 CSE 130
 =======
 
++ Winter 2021: [CSE 130: Programming Languages](https://ucsd-cse130.github.io/wi21/)
 + Winter 2020: [CSE 130: Programming Languages](http://ucsd-cse130.github.io/wi20)
 + Spring 2019: [CSE 130: Programming Languages](http://ucsd-cse130.github.io/sp19)
 + Spring 2017: [CSE 130: Programming Languages](http://ucsd-cse130.github.io/web)
