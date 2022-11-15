@@ -113,7 +113,8 @@ The following monographs are long introductions, suitable for a graduate class:
 
 **Refinement Types: A Tutorial** <br>
 Ranjit Jhala and Niki Vazou <br>
-[PDF](https://arxiv.org/abs/2010.07763), [Code](https://github.com/ranjitjhala/sprite-lang)<br>
+<!-- [PDF](https://arxiv.org/abs/2010.07763), [Code](https://github.com/ranjitjhala/sprite-lang)<br> -->
+[PDF](static/sprite-tutorial-now.pdf), [Code](https://github.com/ranjitjhala/sprite-lang)<br>
 
 
 **Programming With Refinement Types** <br>
