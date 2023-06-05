@@ -1,6 +1,8 @@
 # resolver: nightly-2015-08-26
 # resolver: lts-8.9 
-resolver: lts-16.16
+# resolver: lts-16.16
+resolver: lts-18.27
+allow-newer: true
 
 flags: {}
 
@@ -9,7 +11,6 @@ packages:
 
 extra-deps:
   - karver-0.1.2
+  - hakyll-4.15.1.1
 
-allow-newer: true
-
-compiler: ghc-8.10.2
+# compiler: ghc-8.10.2

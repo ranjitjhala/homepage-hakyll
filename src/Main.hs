@@ -10,6 +10,7 @@ import           Hakyll
 
 main :: IO ()
 main = do
+  putStrLn "Building Site"
   mkBib bibT bibF pubsF
   concatFiles [pResF, pubsF] (toFilePath bResF)
   makeSite pageT tops

@@ -16,7 +16,7 @@ build-type:          Simple
 extra-source-files:  README.md
 cabal-version:       >=1.10
 
-executable homepage 
+executable homepage
   main-is:             Main.hs
   -- build-depends:       base >=4.8 && <4.9
   hs-source-dirs:      src
@@ -32,3 +32,6 @@ executable homepage
                        vector,
                        aeson,
                        directory
+  other-modules:       Biblio,
+                       Misc,
+                       Site

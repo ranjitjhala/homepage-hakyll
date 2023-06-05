@@ -10,8 +10,9 @@ Install
 $ mkdir /path/to/homepage/
 $ cd /path/to/homepage/
 $ git clone https://github.com/ranjitjhala/ranjitjhala.github.io.git
-$ git clone https://github.com/ranjitjhala/hakyll-homepage.git
-$ cd hakyll-homepage/
+$ git clone https://github.com/ranjitjhala/homepage-hakyll.git
+$ cd homepage-hakyll/
+$ mkdir _build/
 $ make
 ```
 
