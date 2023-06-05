@@ -14,6 +14,13 @@ Checking, Program Analysis and Automated Deduction.
 
 <div class="section">
 
+## Flux 
+
+Refinement types for Rust
+
++ [Code][code-flux]
++ Papers: [PLDI 23](/static/flux-pldi23.pdf)
+
 ## LiquidHaskell
 
 Liquid Types for Haskell
@@ -29,6 +36,7 @@ Liquid Types for Haskell
 
 Analyzing programs using models learned from interaction-traces
 
++ [Seq2Parse](/static/seq2parse-oopsla22.pdf)
 + [[PLDI20]](/static/rite.pdf)
 + [NATE](code-nate), [OOPSLA 2017](oopsla17-nate)
 + [NanoMaly](code-nanomaly), [ICFP 2016](icfp16) 
